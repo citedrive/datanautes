@@ -1,48 +1,64 @@
 ---
-import '~/assets/styles/tailwind.css';
-
-import { I18N_CONFIG } from "~/utils/config";
-
-import CommonMeta from '~/components/common/CommonMeta.astro';
-import Favicons from '~/components/Favicons.astro';
-import CustomStyles from "~/components/CustomStyles.astro"
-import ApplyColorMode from "~/components/common/ApplyColorMode.astro"
-import Metadata from '~/components/common/Metadata.astro';
-import SiteVerification  from "~/components/common/SiteVerification.astro"
-import Analytics  from "~/components/common/Analytics.astro"
-import BasicScripts from '~/components/common/BasicScripts.astro';
-
-import { MetaData as MetaDataType } from '~/types';
+import { SEO } from "astro-seo";
+import Footer from "@components/footer.astro";
+import Navbar from "@components/navbar/navbar.astro";
+import "@fontsource/inter/variable.css";
+import { getLanguageFromURL } from "../utils";
+import {BRAND, BC_URL } from "data"
+const lang = getLanguageFromURL(Astro.url.toString());
 
 export interface Props {
-  metadata?: MetaDataType;
+  title: string;
+  description?: string;
 }
-
-const { metadata = {} } = Astro.props;
-const { language, textDirection } = I18N_CONFIG;
+const resolvedImageWithDomain = new URL("/opengraph.jpg", BC_URL).toString();
+const { title, description } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang={language} dir={textDirection} class="2xl:text-[20px]">
-
+<html lang=`${lang}`>
   <head>
-    <CommonMeta />
-    <Favicons />
-    <CustomStyles />
-    <ApplyColorMode />
-    <Metadata {...metadata} />
-    <SiteVerification />
-    <Analytics />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
+    <SEO
+      title={`${title}${title && " | "}datanautes`}
+      description= {`${description ||  "A cloud-based research platform for collecting, analyzing, and sharing preclinical R&D data."}`}
+      twitter={{
+        creator: "@datanautes",
+        site: "@datanautes",
+        card: "summary_large_image",
+      }}
+      canonical={BC_URL + Astro.url.pathname}
+      openGraph={{
+        basic: {
+          type: "website",
+          title: `${title}${title && " | "}datanautes`,
+          image: resolvedImageWithDomain,
+          url: BC_URL + Astro.url.pathname
+        },
+        image: {
+          alt: "datanautes Thumbnail",
+        },
+      }}
+    />
   </head>
-
-  <body class="antialiased text-default bg-page tracking-tight">
+  <body>
+    <Navbar />
     <slot />
-
-    <BasicScripts />
-
+    <Footer />
     <style is:global>
+      /* Improve Page speed */
+      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
       img {
         content-visibility: auto;
+      }
+      /* Avoid Alpine.js Hidden Element Flash */
+      [x-cloak] {
+        display: none;
       }
     </style>
   </body>
