@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-01-06T00:00:00Z
-title: How to customize AstroWind template to suit your branding
+title: How to customize datanautes template to suit your branding
 excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
 image: https://images.unsplash.com/photo-1546984575-757f4f7c13cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 tags:
@@ -8,7 +8,7 @@ tags:
   - tailwind css
   - theme
 metadata:
-  canonical: https://astrowind.vercel.app/how-to-customize-astrowind-to-your-brand
+  canonical: https://datanautes.vercel.app/how-to-customize-datanautes-to-your-brand
 ---
 
 ## Congue justo vulputate nascetur convallis varius orci fringilla nulla pharetr
