@@ -1,18 +1,18 @@
 ---
 import { languages } from '../i18n/languages';
-const route = getRouteFromUrl(Astro.url);
 ---
 
 
 
 <footer class="my-20">
+  {/* 
   <ul>
     {Object.entries(languages).map(([lang, label]) => (
       <li>
-        {/*  <a href={translatePath(`/${route ? route : ''}`, lang)}>{label}</a>*/}
+        <a href={`/${lang}`}>{label}</a>
       </li>
     ))}
-  </ul>
+  </ul>*/}
   <p class="text-center text-sm text-slate-500" >
     Copyright © {new Date().getFullYear()} datanautes. All rights reserved.
   </p>

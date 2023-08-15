@@ -1,2 +1,2 @@
-export const BRAND = "datanautes LLC"
+export const BRAND = "datanautes"
 export const BC_URL = "https://www.datanautes.com"

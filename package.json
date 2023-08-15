@@ -14,7 +14,7 @@
     "@astrojs/mdx": "^0.11.5",
     "@astrojs/preact": "^2.2.1",
     "@astrojs/react": "^2.2.1",
-    "@astrojs/sitemap": "^2.0.1",
+    "@astrojs/sitemap": "^2.0.2",
     "@astrojs/tailwind": "^4.0.0",
     "@fontsource/inter": "^4.5.14",
     "@types/alpinejs": "^3.0.0",

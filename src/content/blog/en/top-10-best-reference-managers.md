@@ -3,6 +3,7 @@ title:  "Top 10 Best Reference Managers"
 date: "2023-06-12"
 tags: ["d"]
 authors: ["George w Blint"]
+description: "Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs."
 ---
 
 Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs.
