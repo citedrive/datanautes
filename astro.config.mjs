@@ -15,7 +15,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  trailingSlash: 'never',
+  trailingSlash: 'always',
   site: 'https://www.datanautes.com',
   integrations: [tailwind(), alpinejs(), mdx(), sitemap({
     i18n: {

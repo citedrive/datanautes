@@ -1,2 +1,2 @@
-# marketing-monorepo
+# datanautes-monorepo
 ...
