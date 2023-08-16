@@ -34,7 +34,10 @@ export const getStaticPaths = () =>
                   {blogPostEntry.data.date.toString()}
                 </time>
                 <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
-                  datanautes
+                  {blogPostEntry.data.tags &&
+                    blogPostEntry.data.tags.length > 0
+                      ? blogPostEntry.data.tags[0]
+                      : "No tags"}
                 </div>
               </div>
               <div class="group relative">
