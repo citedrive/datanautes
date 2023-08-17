@@ -22,17 +22,18 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={`${title}${title && " | "}datanautes`}
-      description= {`${description ||  "A cloud-based research platform for collecting, analyzing, and sharing preclinical R&D data."}`}
-      twitter={{
+      description= {`${description ||  "Datanautes"}`}
+      canonical={BC_URL + Astro.url.pathname}
+      languageAlternates={[
+        { href: BC_URL + "/de/" + Astro.url.pathname.substring(4), hrefLang: "de" }
+      ]}
+     twitter={{
         creator: "@datanautes",
         site: "@datanautes",
         card: "summary_large_image",
       }}
-      canonical={BC_URL + Astro.url.pathname}
       openGraph={{
         basic: {
           type: "website",
