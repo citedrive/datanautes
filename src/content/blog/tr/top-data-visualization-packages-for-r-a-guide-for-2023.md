@@ -1,89 +1,82 @@
 ---
-title: "Top Data Visualization Packages for R: A Guide for 2023"
-description: "A comprehensive guide highlighting the top data visualization packages available for R in 2023, showcasing their features, use cases, and unique capabilities."
+title: "R'de Veri Görselleştirme İçin En İyi Paketler: 2023 Rehberi"
+description: "2023 yılı için mevcut olan en iyi veri görselleştirme paketlerinin öne çıkarıldığı kapsamlı bir rehber, özelliklerinin gösterilmesi, kullanım örnekleri ve benzersiz yetenekleri."
+tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)
 
-**ggplot2** provides the most feature-rich and versatile graph creation package based on the **grammar of graphics** framework as part of the robust **tidyverse** ecosystem. This principle breaks down graphs into components such as datasets, scales, levels, and so on. In a declarative manner, the user combines these components to describe and create any diagram.
+**ggplot2**, güçlü **tidyverse** ekosistemine dahil olan **"grafiklerin gramatiği"** çerçevesine dayalı grafikler oluşturmak için en işlevsel ve çok yönlü paketi sunar. Bu prensip, grafikleri veri setleri, ölçekler, katmanlar vb. bileşenlere ayırır. Kullanıcı, bu bileşenleri deklaratif bir tarzda bir araya getirerek her türlü grafiği tanımlamak ve oluşturmak için kullanır.
 
+Bu yöntem, R'nin orijinal grafiklerini de facto olarak değiştirmiş ve burada tartışılacak olan birçok eklenti eklemiştir.
 
-This method has become so popular that it has effectively replaced R’s native diagrams and added several extensions, some of which will be discussed here.
-
-> **_This article is brought to you by CiteDrive:_** Are you writing reports in **Quarto** or **R Markdown**? Then you should look into CiteDrive, a project-based and collaborative web-reference management tool based on BibTeX that will assist you in keeping your citations, bibliographies, and references in sync with RStudio. [Try out for free](http://citedrive.com/).
+> **_Bu makale CiteDrive tarafından sunulmaktadır:_** **Quarto** veya **R Markdown** ile raporlar mı yazıyorsunuz? O zaman BibTeX temelli bir web bağlantı yönetim projesi ve paylaşma aracı olan CiteDrive'a göz atmalısınız. Bu araç, alıntılarınızı, bibliyografilerinizi ve referanslarınızı RStudio ile senkronize tutmanıza yardımcı olur. [Ücretsiz Deneyin](http://citedrive.com/).
 
 ## [ggcorrplot](https://github.com/kassambara/ggcorrplot)
-Visualization of a correlation matrix using ggplot2. It provides a solution for reordering the correlation matrix and displays the significance level on the correlation matrix.
+ggplot2 ile korelasyon matrislerini görselleştirmek. Korelasyon matrislerini yeniden sıralamak ve korelasyon matrisinde anlamlılık seviyelerini göstermek için bir çözüm sunar.
 
 ## [ggExtra](https://github.com/daattali/ggExtra)
-This package adds additional geoms to ggplot2, along with functions to visualize and explore plots in more detail. For example, it can create marginal histograms/boxplots/density plots, useful for visualizing the distributions of x and y variables in scatterplots.
+Bu paket, ggplot2'ye ek geomerler ekler ve grafikleri görselleştirmek ve daha derinlemesine incelemek için fonksiyonlar sunar. Örneğin, scatter plotlardaki x ve y değişkenlerinin dağılımlarını görselleştirmek için kullanışlı olan histogram/boxplot/density plotları gibi yardımcı grafikler oluşturabilir.
 
 ## [esquisse](https://dreamrs.github.io/esquisse/)
-The esquisse package provides a drag-and-drop interface for exploring and visualizing data. It generates ggplot2 code based on the user's input and is integrated into RStudio as an addin.
+Esquisse paketi, verileri keşfetmek ve görselleştirmek için bir "sürükleyip bırak" arayüzü sunar. Kullanıcının girdilerine dayalı olarak ggplot2 kodu oluşturur ve bir RStudio eklentisi olarak entegre edilmiştir.
 
 ## [patchwork](https://patchwork.data-imaginist.com/)
-The patchwork package makes it extremely easy to combine multiple ggplot objects into one plot. It provides an intuitive and flexible way to create a composition of plots.
+Patchwork paketi, birden fazla ggplot nesnesinin tek bir grafikte birleştirilmesini önemli ölçüde basit ve esnek bir hale getirir.
 
 ## [ggridges](https://wilkelab.org/ggridges/)
-Ggridges allows you to create ridgeline plots in ggplot2, which can be an effective way of visualizing changes in distributions across multiple groups or conditions.
+Ggridges, ggplot2'de ridge plotlar oluşturmanıza olanak sağlar, bu da birden çok grup veya kategoriler arasında dağılım değişikliklerini görselleştirmek için etkili bir yol olabilir.
 
 ## [ggforce](https://ggforce.data-imaginist.com/)
-An extension of ggplot2 that brings additional geoms, stats and other components to ggplot.
+Ggplot2'ye ek geomerler, istatistikler ve diğer bileşenler ekleyen bir ggplot2 eklentisidir.
 
 ## [dygraphs](https://rstudio.github.io/dygraphs/)
-An R interface to the Dygraphs JavaScript charting library. It provides rich facilities for charting time-series data and has built-in support for interactive exploration.
+Dygraphs JavaScript çizim kitaplığının bir R arayüzüdür. Zaman serisi grafikleri oluşturmak için zengin özellikler sunar ve etkileşimli keşif için yerleşik destek sağlar.
 
 ## [sunburstR](https://d3js.org/)
-SunburstR creates ‘sunburst’ charts using a radial layout to display hierarchical data, which are effective for showing the structure of several levels of a tree-like dataset.
+SunburstR, hiyerarşik verileri göstermek için radial bir düzen kullanarak sunburst diyagramları oluşturur, bu da ağaç benzeri veri kümelerinin çok seviyeli yapısını göstermek için etkili bir yöntemdir.
 
 ## [treemap](https://cran.r-project.org/web/packages/treemap/index.html)
-Treemap package provides an easy and flexible way to create treemaps for visualizing hierarchical data structures.
+Treemap paketi, hiyerarşik veri yapılarını görselleştirmek için basit ve esnek bir şekilde ağaç haritaları oluşturmanıza olanak tanır.
 
 ## [ggrepel](https://ggrepel.slowkow.com/)
-Ggrepel provides geoms for ggplot2 to repel overlapping text labels away from each other, and away from the data.
+Ggrepel, ggplot2 için etiketlerin birbirine ve verilere yapışmaması için geomerler sunar.
 
 ## [sf](https://r-spatial.github.io/sf/)
-The sf package is a modern approach to working with spatial data in R. It allows for the easy manipulation and visualization of simple feature objects (a standardized way of encoding spatial vector data).
-
+Sf paketi, R'da mekansal verilerle çalışmak için modern bir yaklaşımdır. Simple Features (vektör tabanlı mekansal verileri kodlama için standartlaşmış bir yöntem) nesnelerini kolayca manipüle etme ve görselleştirme olanağı sağlar.
 
 ## [Leaflet](https://rstudio.github.io/leaflet/)
-
-The **New York Times** and the **Washington Post** both use Leaflet by Volodymyr Agafonkin, one of the most popular open-source JavaScript libraries for interactive maps. Leaflet for R makes it simple to incorporate leaflet maps into R.
+**The New York Times** ve **The Washington Post**, Vladimir Agafonkin tarafından oluşturulan ve etkileşimli haritalar için en popüler açık kaynak JavaScript kitaplıklarından biri olan Leaflet'i kullanmaktadır. R için Leaflet, Leaflet haritalarının R'ye entegrasyonunu kolaylaştırır.
 
 ## [simplevis](https://statisticsnz.github.io/simplevis/)
+Daha önce iki kullanışlı araçtan bahsetmiştik: ggplot2 ve leaflet. Simplevis'in amacı, veri analizinden sonra ggplot2 ve leaflet haritaları oluşturmanın ne kadar kolay olabileceğini göstermek.
 
-We’ve already introduced two useful tools: ggplot2 and leaflet. The goal of simplevis is to make visualization easier with less brainpower by providing a package of wrapper functions for these two packages.
+## [plotly](https://plotly.com/r/)
+Plotly, R'da etkileşimli grafikler oluşturmak için kullanılan bir diğer popüler kütüphanedir. Plotly'nin bir diğer avantajı, grafikleri anında web uygulamalarına (örneğin Shiny) entegre etme yeteneğidir.
 
-## [GGANIMATE](https://gganimate.com/articles/gganimate.html)
+## [gganimate](https://gganimate.com/articles/gganimate.html)
+gganimate, R'da güzel animasyonlarla grafikler oluşturmak için ggplot2'nin bir eklentisidir.
 
-gganimate is a ggplot extension that allows you to create diagrams with beautiful animations in R.
+**GGANIMATE ÖRNEĞİ**
 
-**GGANIMATE EXAMPLE**
-
-The grammar principle is supplemented by a number of extra components that the data scientist can add to the ggplot object to represent how it should change over time.
+Gramatik ilkesi, bir veri bilimcisinin ggplot nesnesine zaman içinde nasıl değişeceğini belirtmek için ekleyebileceği bir dizi ek bileşen ile genişletilmiştir.
 
 ## [ggvis](https://ggvis.rstudio.com/)
-
-In keeping with the **ggplot2** philosophy (and the grammar of graphics), **ggvis** allows users to create interactive graphics that can be tested in Rstudio or in the browser using the shiny infrastructure.
+**ggplot2** felsefesiyle (ve grafik gramatikleriyle) uyumlu olan **ggvis**, kullanıcıların Shiny altyapısı kullanarak Rstudio'da veya bir web tarayıcısında interaktif grafikler oluşturmasına olanak tanır.
 
 ## [RGL](https://dmurdoch.github.io/rgl/)
-
-RGL allows you to create interactive 3D graphics in R using **OpenGL** or **WebGL** as the backend.
+RGL, R'da interaktif 3D grafikler oluşturmanıza olanak sağlar ve arkasındaki teknoloji olarak **OpenGL** veya **WebGL** kullanır.
 
 ## [rayrender](https://www.rayrender.net/)
-
-This open-source R package, inspired by Peter Shirley’s three books on ray tracing, allows you to do the same thing when creating 3D scenes in R.
+Bu açık kaynaklı R paketi, Peter Shirley'nin raytracing hakkında üç kitabından ilham alarak, R'da 3D sahneler oluşturma imkanı sunar.
 
 ## [highcharter](https://jkunst.com/highcharter/)
-
-This R package contains a set of wrapper functions for the JavaScript library of the same name. **BBC**, **Sony**, and **Twitter** are already using Highcharts (JavaScript) as a flexible and customizable chart library.
+Bu R paketi, aynı adlı JavaScript kitaplığı için bir set fonksiyon sağlar. **BBC**, **Sony** ve **Twitter**, esnek ve özelleştirilebilir bir grafik kitaplığı olarak Highcharts'ı (JavaScript) zaten kullanmaktadır.
 
 ## [Plotly](https://plotly.com/r/)
+Plotly'nin odak noktası, yayın kalitesinde interaktif grafikler oluşturmaktır. Çizgi grafikler, scatterplotlar, alan grafikleri vb. oluşturma konusunda örnekler bulunmaktadır.
 
-The emphasis of Plotly is on interactive, publication-quality diagrams. There are examples for creating line charts, scatter plots, area plots, and so on.
-
-## [Lattice](http://lattice.r-forge.r-project.org/)
-
-Lattice is a powerful and elegant high-level data visualization system inspired by Trellis graphics, with a focus on multivariate data. While adequate for most graphing needs, Lattice is adaptable enough to meet the majority of non-standard requirements.
+## [Lattice](http://lattice.r-project.org/)
+Lattice, çok boyutlu verilere vurgu yaparak, Trellis grafiklerinden esinlenen güçlü ve zarif bir veri görselleştirme sistemi sağlar. Çoğu çizim ihtiyacını karşılayabilecekken, Lattice, standart dışı ihtiyaçların çoğunu karşılamak üzere yeterince özelleştirilebilir.

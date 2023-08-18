@@ -1,89 +1,79 @@
 ---
-title: "Top Data Visualization Packages for R: A Guide for 2023"
-description: "A comprehensive guide highlighting the top data visualization packages available for R in 2023, showcasing their features, use cases, and unique capabilities."
+title: "2023年R语言数据可视化最佳包：指南"
+description: "这是一个全面的指南，重点介绍了2023年可用的最佳数据可视化包，展示了它们的特点、使用示例和独特功能。"
 authors: ["CiteDrive"]
+tags: ["R", "RStudio", "dataviz"]
 date: "2023-08-15"
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)
 
-**ggplot2** provides the most feature-rich and versatile graph creation package based on the **grammar of graphics** framework as part of the robust **tidyverse** ecosystem. This principle breaks down graphs into components such as datasets, scales, levels, and so on. In a declarative manner, the user combines these components to describe and create any diagram.
+**ggplot2** 是强大的 **tidyverse** 生态系统的一部分，它提供了基于**“图形语法”**框架的最实用和多功能的图形创建工具。这个原则将图形分解为数据集、比例、图层等组件。用户以声明式方式将这些组件组合在一起，用于定义和创建任何类型的图形。
 
+这种方法已经取代了R的原始图形为事实标准，并在这里讨论的许多插件中添加了它。
 
-This method has become so popular that it has effectively replaced R’s native diagrams and added several extensions, some of which will be discussed here.
-
-> **_This article is brought to you by CiteDrive:_** Are you writing reports in **Quarto** or **R Markdown**? Then you should look into CiteDrive, a project-based and collaborative web-reference management tool based on BibTeX that will assist you in keeping your citations, bibliographies, and references in sync with RStudio. [Try out for free](http://citedrive.com/).
+> **_本文章由CiteDrive提供:_** 您正在使用 **Quarto** 或 **R Markdown** 编写报告吗? 那么您应该查看CiteDrive，这是一个基于BibTeX的在线引文管理和共享工具。该工具帮助您将您的引用、参考书目和引文与RStudio保持同步。 [免费试用](http://citedrive.com/).
 
 ## [ggcorrplot](https://github.com/kassambara/ggcorrplot)
-Visualization of a correlation matrix using ggplot2. It provides a solution for reordering the correlation matrix and displays the significance level on the correlation matrix.
+ggplot2用于可视化相关矩阵。它提供了重新排序相关矩阵和在相关矩阵中显示显著性水平的解决方案。
 
 ## [ggExtra](https://github.com/daattali/ggExtra)
-This package adds additional geoms to ggplot2, along with functions to visualize and explore plots in more detail. For example, it can create marginal histograms/boxplots/density plots, useful for visualizing the distributions of x and y variables in scatterplots.
+这个包添加了额外的geoms到ggplot2，并提供了用于可视化和深入分析图形的功能。例如，它可以创建辅助图形，如显示scatter plot中的x和y变量分布的直方图/箱线图/密度图。
 
 ## [esquisse](https://dreamrs.github.io/esquisse/)
-The esquisse package provides a drag-and-drop interface for exploring and visualizing data. It generates ggplot2 code based on the user's input and is integrated into RStudio as an addin.
+Esquisse包提供了一个“拖放”界面，用于探索和可视化数据。它基于用户的输入生成ggplot2代码，并已作为RStudio插件集成。
 
 ## [patchwork](https://patchwork.data-imaginist.com/)
-The patchwork package makes it extremely easy to combine multiple ggplot objects into one plot. It provides an intuitive and flexible way to create a composition of plots.
+Patchwork包大大简化和灵活地将多个ggplot对象组合到一个图中。
 
 ## [ggridges](https://wilkelab.org/ggridges/)
-Ggridges allows you to create ridgeline plots in ggplot2, which can be an effective way of visualizing changes in distributions across multiple groups or conditions.
+Ggridges允许在ggplot2中创建脊线图，这可以有效地展示多个组或类别之间的分布变化。
 
 ## [ggforce](https://ggforce.data-imaginist.com/)
-An extension of ggplot2 that brings additional geoms, stats and other components to ggplot.
+Ggforce是一个ggplot2插件，它添加了额外的geoms、统计信息和其他组件到ggplot2。
 
 ## [dygraphs](https://rstudio.github.io/dygraphs/)
-An R interface to the Dygraphs JavaScript charting library. It provides rich facilities for charting time-series data and has built-in support for interactive exploration.
+Dygraphs是Dygraphs JavaScript绘图库的一个R接口。它提供了丰富的特性来创建时间序列图，并内置支持交互式探索。
 
 ## [sunburstR](https://d3js.org/)
-SunburstR creates ‘sunburst’ charts using a radial layout to display hierarchical data, which are effective for showing the structure of several levels of a tree-like dataset.
+SunburstR使用径向布局创建sunburst图，以显示分层数据，这是一种有效展示树状数据集多级结构的方法。
 
 ## [treemap](https://cran.r-project.org/web/packages/treemap/index.html)
-Treemap package provides an easy and flexible way to create treemaps for visualizing hierarchical data structures.
+Treemap包允许您以简单和灵活的方式创建树图，以可视化层次数据结构。
 
 ## [ggrepel](https://ggrepel.slowkow.com/)
-Ggrepel provides geoms for ggplot2 to repel overlapping text labels away from each other, and away from the data.
+Ggrepel为ggplot2提供了标签，这些标签避免相互和数据重叠。
 
 ## [sf](https://r-spatial.github.io/sf/)
-The sf package is a modern approach to working with spatial data in R. It allows for the easy manipulation and visualization of simple feature objects (a standardized way of encoding spatial vector data).
-
+Sf包是R中处理空间数据的现代方法。它允许轻松操纵和可视化Simple Features对象（一种标准化的方式来编码矢量空间数据）。
 
 ## [Leaflet](https://rstudio.github.io/leaflet/)
-
-The **New York Times** and the **Washington Post** both use Leaflet by Volodymyr Agafonkin, one of the most popular open-source JavaScript libraries for interactive maps. Leaflet for R makes it simple to incorporate leaflet maps into R.
+**The New York Times** 和 **The Washington Post** 使用由Vladimir Agafonkin创建的Leaflet，这是一个最受欢迎的开源JavaScript库之一，用于交互式地图。R的Leaflet使得将Leaflet地图集成到R中变得容易。
 
 ## [simplevis](https://statisticsnz.github.io/simplevis/)
+我们之前提到了两个有用的工具：ggplot2和leaflet。Simplevis的目标是展示创建ggplot2和leaflet地图在数据分析之后有多简单。
 
-We’ve already introduced two useful tools: ggplot2 and leaflet. The goal of simplevis is to make visualization easier with less brainpower by providing a package of wrapper functions for these two packages.
+## [plotly](https://plotly.com/r/)
+Plotly是另一个在R中创建交互式图表的流行库。Plotly的另一个优点是它可以立即将图形集成到Web应用程序（如Shiny）中。
 
-## [GGANIMATE](https://gganimate.com/articles/gganimate.html)
-
-gganimate is a ggplot extension that allows you to create diagrams with beautiful animations in R.
-
-**GGANIMATE EXAMPLE**
-
-The grammar principle is supplemented by a number of extra components that the data scientist can add to the ggplot object to represent how it should change over time.
+## [gganimate](https://gganimate.com/articles/gganimate.html)
+gganimate是一个ggplot2的扩展，用于在R中创建美丽的动画图形。
 
 ## [ggvis](https://ggvis.rstudio.com/)
-
-In keeping with the **ggplot2** philosophy (and the grammar of graphics), **ggvis** allows users to create interactive graphics that can be tested in Rstudio or in the browser using the shiny infrastructure.
+与**ggplot2**哲学（和图形语法）相一致的**ggvis**允许用户使用Shiny框架在Rstudio或Web浏览器中创建交互式图表。
 
 ## [RGL](https://dmurdoch.github.io/rgl/)
-
-RGL allows you to create interactive 3D graphics in R using **OpenGL** or **WebGL** as the backend.
+RGL允许在R中创建交互式3D图形，并使用**OpenGL**或**WebGL**作为后端技术。
 
 ## [rayrender](https://www.rayrender.net/)
-
-This open-source R package, inspired by Peter Shirley’s three books on ray tracing, allows you to do the same thing when creating 3D scenes in R.
+这个开源R包允许您在R中创建3D场景，它是受到Peter Shirley关于光线追踪的三本书的启发。
 
 ## [highcharter](https://jkunst.com/highcharter/)
-
-This R package contains a set of wrapper functions for the JavaScript library of the same name. **BBC**, **Sony**, and **Twitter** are already using Highcharts (JavaScript) as a flexible and customizable chart library.
+这个R包为同名JavaScript库提供了一组函数。**BBC**、**Sony**和**Twitter**已经使用Highcharts（JavaScript）作为灵活和可定制的图表库。
 
 ## [Plotly](https://plotly.com/r/)
+Plotly的焦点是创建发布质量的交互式图形。它提供了创建线图、散点图、区域图等的示例。
 
-The emphasis of Plotly is on interactive, publication-quality diagrams. There are examples for creating line charts, scatter plots, area plots, and so on.
+## [Lattice](http://lattice.r-project.org/)
+Lattice提供了一个强大和优雅的数据可视化系统，强调对多维数据的支持，受到Trellis图形的启发。尽管它可以满足大多数绘图需求，Lattice可以充分自定义以满足非标准需求。
 
-## [Lattice](http://lattice.r-forge.r-project.org/)
-
-Lattice is a powerful and elegant high-level data visualization system inspired by Trellis graphics, with a focus on multivariate data. While adequate for most graphing needs, Lattice is adaptable enough to meet the majority of non-standard requirements.
