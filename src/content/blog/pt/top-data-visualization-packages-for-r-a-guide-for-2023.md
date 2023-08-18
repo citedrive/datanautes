@@ -1,89 +1,57 @@
 ---
-title: "Top Data Visualization Packages for R: A Guide for 2023"
-description: "A comprehensive guide highlighting the top data visualization packages available for R in 2023, showcasing their features, use cases, and unique capabilities."
+title: "Os Melhores Pacotes de Visualização de Dados para R: Um Guia para 2023"
+description: "Um guia abrangente destacando os melhores pacotes de visualização de dados disponíveis para R em 2023, exibindo seus recursos, casos de uso e capacidades únicas."
+tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)
 
-**ggplot2** provides the most feature-rich and versatile graph creation package based on the **grammar of graphics** framework as part of the robust **tidyverse** ecosystem. This principle breaks down graphs into components such as datasets, scales, levels, and so on. In a declarative manner, the user combines these components to describe and create any diagram.
+**ggplot2** oferece o pacote de criação de gráficos mais completo e versátil baseado na estrutura **Grammar of Graphics** como parte do robusto ecossistema **tidyverse**. Este princípio decompõe gráficos em componentes, como conjuntos de dados, escalas, níveis, etc. De forma declarativa, o usuário combina esses componentes para descrever e criar qualquer diagrama.
 
+Esse método tornou-se tão popular que efetivamente substituiu os gráficos nativos do R, adicionando várias extensões, algumas das quais serão discutidas aqui.
 
-This method has become so popular that it has effectively replaced R’s native diagrams and added several extensions, some of which will be discussed here.
-
-> **_This article is brought to you by CiteDrive:_** Are you writing reports in **Quarto** or **R Markdown**? Then you should look into CiteDrive, a project-based and collaborative web-reference management tool based on BibTeX that will assist you in keeping your citations, bibliographies, and references in sync with RStudio. [Try out for free](http://citedrive.com/).
+> **_Este artigo é oferecido por CiteDrive:_** Você está escrevendo relatórios em **Quarto** ou **R Markdown**? Então você deve conhecer o CiteDrive, uma ferramenta de gerenciamento de referências baseada em BibTeX, que é colaborativa e voltada para projetos, e que ajudará você a manter suas citações, bibliografias e referências sincronizadas com o RStudio. [Experimente grátis](http://citedrive.com/).
 
 ## [ggcorrplot](https://github.com/kassambara/ggcorrplot)
-Visualization of a correlation matrix using ggplot2. It provides a solution for reordering the correlation matrix and displays the significance level on the correlation matrix.
+Visualização de uma matriz de correlação usando ggplot2. Ele oferece uma solução para reordenar a matriz de correlação e exibir o nível de significância na matriz de correlação.
 
 ## [ggExtra](https://github.com/daattali/ggExtra)
-This package adds additional geoms to ggplot2, along with functions to visualize and explore plots in more detail. For example, it can create marginal histograms/boxplots/density plots, useful for visualizing the distributions of x and y variables in scatterplots.
+Este pacote adiciona geoms adicionais ao ggplot2, além de funções para visualizar e explorar plots em mais detalhes. Por exemplo, pode criar histogramas/boxplots/gráficos de densidade marginais, úteis para visualizar as distribuições de variáveis x e y em scatterplots.
 
 ## [esquisse](https://dreamrs.github.io/esquisse/)
-The esquisse package provides a drag-and-drop interface for exploring and visualizing data. It generates ggplot2 code based on the user's input and is integrated into RStudio as an addin.
+O pacote esquisse oferece uma interface de arrastar e soltar para explorar e visualizar dados. Ele gera código ggplot2 com base na entrada do usuário e está integrado no RStudio como um addin.
 
 ## [patchwork](https://patchwork.data-imaginist.com/)
-The patchwork package makes it extremely easy to combine multiple ggplot objects into one plot. It provides an intuitive and flexible way to create a composition of plots.
+O pacote patchwork torna extremamente fácil combinar vários objetos ggplot em um único gráfico. Ele oferece uma maneira intuitiva e flexível de criar uma composição de plots.
 
 ## [ggridges](https://wilkelab.org/ggridges/)
-Ggridges allows you to create ridgeline plots in ggplot2, which can be an effective way of visualizing changes in distributions across multiple groups or conditions.
+Ggridges permite criar plots de crista no ggplot2, que podem ser uma maneira eficaz de visualizar mudanças nas distribuições em vários grupos ou condições.
 
 ## [ggforce](https://ggforce.data-imaginist.com/)
-An extension of ggplot2 that brings additional geoms, stats and other components to ggplot.
+Uma extensão do ggplot2 que traz geoms adicionais, estatísticas e outros componentes para o ggplot.
 
 ## [dygraphs](https://rstudio.github.io/dygraphs/)
-An R interface to the Dygraphs JavaScript charting library. It provides rich facilities for charting time-series data and has built-in support for interactive exploration.
+Uma interface R para a biblioteca de gráficos JavaScript Dygraphs. Ele oferece recursos ricos para plotar dados de séries temporais e tem suporte embutido para exploração interativa.
 
 ## [sunburstR](https://d3js.org/)
-SunburstR creates ‘sunburst’ charts using a radial layout to display hierarchical data, which are effective for showing the structure of several levels of a tree-like dataset.
+SunburstR cria gráficos 'sunburst' usando um layout radial para exibir dados hierárquicos, que são eficazes para mostrar a estrutura de vários níveis de um conjunto de dados em formato de árvore.
 
 ## [treemap](https://cran.r-project.org/web/packages/treemap/index.html)
-Treemap package provides an easy and flexible way to create treemaps for visualizing hierarchical data structures.
+O pacote treemap oferece uma maneira fácil e flexível de criar treemaps para visualizar estruturas de dados hierárquicos.
 
 ## [ggrepel](https://ggrepel.slowkow.com/)
-Ggrepel provides geoms for ggplot2 to repel overlapping text labels away from each other, and away from the data.
+Ggrepel oferece geoms para ggplot2 para repelir rótulos de texto que se sobrepõem uns aos outros e se afastam dos dados.
 
 ## [sf](https://r-spatial.github.io/sf/)
-The sf package is a modern approach to working with spatial data in R. It allows for the easy manipulation and visualization of simple feature objects (a standardized way of encoding spatial vector data).
-
+O pacote sf é uma abordagem moderna para trabalhar com dados espaciais em R. Ele permite manipular e visualizar objetos Simple Features, que é uma forma padronizada de codificar dados vetoriais.
 
 ## [Leaflet](https://rstudio.github.io/leaflet/)
+Como as implementações que você encontra nos sites do **New York Times** ou **The Guardian**, o Leaflet é a biblioteca de código aberto mais popular para mapas interativos, com ligações para R.
 
-The **New York Times** and the **Washington Post** both use Leaflet by Volodymyr Agafonkin, one of the most popular open-source JavaScript libraries for interactive maps. Leaflet for R makes it simple to incorporate leaflet maps into R.
+## [plotly](https://plotly-r.com/)
+Plotly é uma ferramenta gráfica que permite criar uma variedade de gráficos interativos em várias linguagens de programação. A versão R do Plotly é baseada na biblioteca plotly.js, que é construída em cima de d3.js.
 
-## [simplevis](https://statisticsnz.github.io/simplevis/)
-
-We’ve already introduced two useful tools: ggplot2 and leaflet. The goal of simplevis is to make visualization easier with less brainpower by providing a package of wrapper functions for these two packages.
-
-## [GGANIMATE](https://gganimate.com/articles/gganimate.html)
-
-gganimate is a ggplot extension that allows you to create diagrams with beautiful animations in R.
-
-**GGANIMATE EXAMPLE**
-
-The grammar principle is supplemented by a number of extra components that the data scientist can add to the ggplot object to represent how it should change over time.
-
-## [ggvis](https://ggvis.rstudio.com/)
-
-In keeping with the **ggplot2** philosophy (and the grammar of graphics), **ggvis** allows users to create interactive graphics that can be tested in Rstudio or in the browser using the shiny infrastructure.
-
-## [RGL](https://dmurdoch.github.io/rgl/)
-
-RGL allows you to create interactive 3D graphics in R using **OpenGL** or **WebGL** as the backend.
-
-## [rayrender](https://www.rayrender.net/)
-
-This open-source R package, inspired by Peter Shirley’s three books on ray tracing, allows you to do the same thing when creating 3D scenes in R.
-
-## [highcharter](https://jkunst.com/highcharter/)
-
-This R package contains a set of wrapper functions for the JavaScript library of the same name. **BBC**, **Sony**, and **Twitter** are already using Highcharts (JavaScript) as a flexible and customizable chart library.
-
-## [Plotly](https://plotly.com/r/)
-
-The emphasis of Plotly is on interactive, publication-quality diagrams. There are examples for creating line charts, scatter plots, area plots, and so on.
-
-## [Lattice](http://lattice.r-forge.r-project.org/)
-
-Lattice is a powerful and elegant high-level data visualization system inspired by Trellis graphics, with a focus on multivariate data. While adequate for most graphing needs, Lattice is adaptable enough to meet the majority of non-standard requirements.
+## [lattice](http://lattice.r-forge.r-project.org/)
+Lattice é um poderoso e elegante sistema de visualização de dados baseado nos conceitos de gráficos de Trellis, com um foco em visualizações multivariadas. Ele oferece um excelente suporte para visualizações comuns, mas também é flexível o suficiente para lidar com visualizações mais especializadas.

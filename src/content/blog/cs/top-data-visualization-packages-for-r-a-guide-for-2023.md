@@ -1,6 +1,6 @@
 ---
-title: "Top Data Visualization Packages for R: A Guide for 2023"
-description: "A comprehensive guide highlighting the top data visualization packages available for R in 2023, showcasing their features, use cases, and unique capabilities."
+title: "Nejlepší balíčky pro vizualizaci dat v R: Průvodce pro rok 2023"
+description: "Ucelený průvodce, který zdůrazňuje nejlepší balíčky pro vizualizaci dat dostupné v R v roce 2023, a ukazuje jejich funkce, případy použití a unikátní schopnosti."
 tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
@@ -8,83 +8,71 @@ date: "2023-08-15"
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)
 
-**ggplot2** provides the most feature-rich and versatile graph creation package based on the **grammar of graphics** framework as part of the robust **tidyverse** ecosystem. This principle breaks down graphs into components such as datasets, scales, levels, and so on. In a declarative manner, the user combines these components to describe and create any diagram.
+**ggplot2** poskytuje nejbohatší a nejvíce univerzální balíček pro tvorbu grafů na základě **gramatiky grafiky** jako součást robustního ekosystému **tidyverse**. Tato gramatika rozkládá grafy na komponenty, jako jsou dataset, škály, úrovně atd. V deklarativní formě uživatel kombinuje tyto komponenty k popisu a vytvoření libovolného diagramu.
 
+Tato metoda se stala tak populární, že efektivně nahradila původní diagramy R a přidala několik rozšíření, z nichž některá budou zde diskutována.
 
-This method has become so popular that it has effectively replaced R’s native diagrams and added several extensions, some of which will be discussed here.
-
-> **_This article is brought to you by CiteDrive:_** Are you writing reports in **Quarto** or **R Markdown**? Then you should look into CiteDrive, a project-based and collaborative web-reference management tool based on BibTeX that will assist you in keeping your citations, bibliographies, and references in sync with RStudio. [Try out for free](http://citedrive.com/).
+> **_Tento článek vám přináší CiteDrive:_** Píšete zprávy v **Quarto** nebo **R Markdownu**? Pak byste měli zvážit CiteDrive, projektový a spolupracovní webový nástroj pro správu referencí založený na BibTeXu, který vám pomůže udržet vaše citace, bibliografie a reference synchronizované s RStudio. [Vyzkoušejte zdarma](http://citedrive.com/).
 
 ## [ggcorrplot](https://github.com/kassambara/ggcorrplot)
-Visualization of a correlation matrix using ggplot2. It provides a solution for reordering the correlation matrix and displays the significance level on the correlation matrix.
+Vizualizace korelační matice pomocí ggplot2. Nabízí řešení pro přeřazení korelační matice a zobrazuje hladinu významnosti na korelační matici.
 
 ## [ggExtra](https://github.com/daattali/ggExtra)
-This package adds additional geoms to ggplot2, along with functions to visualize and explore plots in more detail. For example, it can create marginal histograms/boxplots/density plots, useful for visualizing the distributions of x and y variables in scatterplots.
+Tento balíček přidává k ggplot2 další geomy a funkce pro vizualizaci a podrobnější zkoumání grafů. Například může vytvářet marginální histogramy/boxploty/hustotní grafy, které jsou užitečné pro vizualizaci distribuce proměnných x a y ve scatterplotu.
 
 ## [esquisse](https://dreamrs.github.io/esquisse/)
-The esquisse package provides a drag-and-drop interface for exploring and visualizing data. It generates ggplot2 code based on the user's input and is integrated into RStudio as an addin.
+Balíček esquisse poskytuje uživatelské rozhraní typu táhni a pusť pro prozkoumávání a vizualizaci dat. Na základě vstupu uživatele generuje kód ggplot2 a je integrován do RStudia jako doplněk.
 
 ## [patchwork](https://patchwork.data-imaginist.com/)
-The patchwork package makes it extremely easy to combine multiple ggplot objects into one plot. It provides an intuitive and flexible way to create a composition of plots.
+Balíček patchwork velmi usnadňuje kombinaci více ggplot objektů do jednoho grafu. Poskytuje intuitivní a flexibilní způsob, jak vytvořit kompozici grafů.
 
 ## [ggridges](https://wilkelab.org/ggridges/)
-Ggridges allows you to create ridgeline plots in ggplot2, which can be an effective way of visualizing changes in distributions across multiple groups or conditions.
+Ggridges vám umožní vytvářet v ggplot2 ridgeploty, což je efektivní způsob vizualizace změn v distribucích napříč různými skupinami nebo podmínkami.
 
 ## [ggforce](https://ggforce.data-imaginist.com/)
-An extension of ggplot2 that brings additional geoms, stats and other components to ggplot.
+Rozšíření ggplot2, které přináší další geomy, statistiky a další komponenty do ggplotu.
 
 ## [dygraphs](https://rstudio.github.io/dygraphs/)
-An R interface to the Dygraphs JavaScript charting library. It provides rich facilities for charting time-series data and has built-in support for interactive exploration.
+R rozhraní k knihovně Dygraphs JavaScript pro tvorbu grafů. Poskytuje bohaté možnosti pro grafické zobrazení časových řad a má vestavěnou podporu pro interaktivní průzkum.
 
 ## [sunburstR](https://d3js.org/)
-SunburstR creates ‘sunburst’ charts using a radial layout to display hierarchical data, which are effective for showing the structure of several levels of a tree-like dataset.
+SunburstR vytváří ‘sunburst’ grafy s využitím radiálního uspořádání k zobrazení hierarchických dat, což je efektivní pro ukázání struktury několika úrovní stromových datasetů.
 
 ## [treemap](https://cran.r-project.org/web/packages/treemap/index.html)
-Treemap package provides an easy and flexible way to create treemaps for visualizing hierarchical data structures.
+Balíček Treemap poskytuje snadný a flexibilní způsob, jak vytvořit treemapy pro vizualizaci hierarchických datových struktur.
 
 ## [ggrepel](https://ggrepel.slowkow.com/)
-Ggrepel provides geoms for ggplot2 to repel overlapping text labels away from each other, and away from the data.
+Ggrepel poskytuje geomy pro ggplot2, které odpuzují překrývající se textové popisky od sebe a od dat.
 
 ## [sf](https://r-spatial.github.io/sf/)
-The sf package is a modern approach to working with spatial data in R. It allows for the easy manipulation and visualization of simple feature objects (a standardized way of encoding spatial vector data).
-
+Balíček sf je moderním přístupem k práci s prostorovými daty v R. Umožňuje snadnou manipulaci a vizualizaci objektů jednoduchých prvků (standardizovaný způsob kódování prostorových vektorových dat).
 
 ## [Leaflet](https://rstudio.github.io/leaflet/)
-
-The **New York Times** and the **Washington Post** both use Leaflet by Volodymyr Agafonkin, one of the most popular open-source JavaScript libraries for interactive maps. Leaflet for R makes it simple to incorporate leaflet maps into R.
+**New York Times** a **Washington Post** oba používají Leaflet od Volodymyra Agafonkina, jednu z nejpopulárnějších otevřených JavaScriptových knihoven pro interaktivní mapy. Leaflet pro R umožňuje jednoduché začlenění leafletových map do R.
 
 ## [simplevis](https://statisticsnz.github.io/simplevis/)
-
-We’ve already introduced two useful tools: ggplot2 and leaflet. The goal of simplevis is to make visualization easier with less brainpower by providing a package of wrapper functions for these two packages.
+Již jsme představili dva užitečné nástroje: ggplot2 a leaflet. Cílem simplevis je usnadnit vizualizaci s menší námahou mozku tím, že poskytuje balíček funkcí obalujících tyto dva balíčky.
 
 ## [GGANIMATE](https://gganimate.com/articles/gganimate.html)
+gganimate je rozšíření ggplotu, které vám umožňuje vytvářet diagramy s krásnými animacemi v R.
 
-gganimate is a ggplot extension that allows you to create diagrams with beautiful animations in R.
-
-**GGANIMATE EXAMPLE**
-
-The grammar principle is supplemented by a number of extra components that the data scientist can add to the ggplot object to represent how it should change over time.
+**PŘÍKLAD GGANIMATE**
+Princip gramatiky je doplněn řadou dalších komponent, které datový vědec může přidat k ggplot objektu, aby reprezentoval, jak by se měl časem měnit.
 
 ## [ggvis](https://ggvis.rstudio.com/)
-
-In keeping with the **ggplot2** philosophy (and the grammar of graphics), **ggvis** allows users to create interactive graphics that can be tested in Rstudio or in the browser using the shiny infrastructure.
+V souladu s filozofií **ggplot2** (a gramatikou grafiky), **ggvis** umožňuje uživatelům vytvářet interaktivní grafiky, které mohou být testovány v RStudiu nebo v prohlížeči pomocí infrastruktury shiny.
 
 ## [RGL](https://dmurdoch.github.io/rgl/)
-
-RGL allows you to create interactive 3D graphics in R using **OpenGL** or **WebGL** as the backend.
+RGL vám umožní vytvářet interaktivní 3D grafiku v R s využitím **OpenGL** nebo **WebGL** jako backendu.
 
 ## [rayrender](https://www.rayrender.net/)
-
-This open-source R package, inspired by Peter Shirley’s three books on ray tracing, allows you to do the same thing when creating 3D scenes in R.
+Tento open-source R balíček, inspirovaný třemi knihami Petera Shirleyho o sledování paprsku, vám umožní dělat to samé při vytváření 3D scén v R.
 
 ## [highcharter](https://jkunst.com/highcharter/)
-
-This R package contains a set of wrapper functions for the JavaScript library of the same name. **BBC**, **Sony**, and **Twitter** are already using Highcharts (JavaScript) as a flexible and customizable chart library.
+Tento R balíček obsahuje sadu funkcí obalujících JavaScriptovou knihovnu stejného jména. **BBC**, **Sony** a **Twitter** již používají Highcharts (JavaScript) jako flexibilní a přizpůsobitelnou knihovnu pro grafy.
 
 ## [Plotly](https://plotly.com/r/)
-
-The emphasis of Plotly is on interactive, publication-quality diagrams. There are examples for creating line charts, scatter plots, area plots, and so on.
+Důraz Plotly je na interaktivních grafech publikovatelné kvality. Existují příklady pro vytváření čárových grafů, bodových diagramů, plošných grafů atd.
 
 ## [Lattice](http://lattice.r-forge.r-project.org/)
-
-Lattice is a powerful and elegant high-level data visualization system inspired by Trellis graphics, with a focus on multivariate data. While adequate for most graphing needs, Lattice is adaptable enough to meet the majority of non-standard requirements.
+Lattice je silný a elegantní vysokoúrovňový systém pro vizualizaci dat inspirovaný Trellisovou grafikou, s důrazem na vícerozměrná data. Ačkoli je dostatečný pro většinu potřeb grafiky, je dostatečně flexibilní, aby vyhověl většině nestandardních požadavků.
