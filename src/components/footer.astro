@@ -1,5 +1,7 @@
 ---
-import { languages } from '../i18n/languages';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 
@@ -14,7 +16,7 @@ import { languages } from '../i18n/languages';
     ))}
   </ul>*/}
   <p class="text-center text-sm text-slate-500" >
-    Copyright © {new Date().getFullYear()} datanautes. All rights reserved.
+    {t('footer.copyright')}
   </p>
 
   </p>
