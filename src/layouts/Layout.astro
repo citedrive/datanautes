@@ -6,13 +6,23 @@ import "@fontsource/inter/variable.css";
 import { getLanguageFromURL } from "../utils";
 import {BRAND, BC_URL } from "data"
 const lang = getLanguageFromURL(Astro.url.toString());
-
+import { languages } from "../i18n/languages";
 export interface Props {
   title: string;
   description?: string;
 }
 const resolvedImageWithDomain = new URL("/opengraph.jpg", BC_URL).toString();
 const { title, description } = Astro.props;
+const currentPath = Astro.url.pathname.substring(4);
+
+const languageAlternates = Object.keys(languages).map(langCode => {
+  return {
+    href: `${BC_URL}/${langCode}/${currentPath}`,
+    hrefLang: langCode
+  };
+});
+
+
 ---
 
 <!DOCTYPE html>
@@ -26,9 +36,7 @@ const { title, description } = Astro.props;
       title={`${title}${title && " | "}datanautes`}
       description= {`${description ||  "Datanautes"}`}
       canonical={BC_URL + Astro.url.pathname}
-      languageAlternates={[
-        { href: BC_URL + "/de/" + Astro.url.pathname.substring(4), hrefLang: "de" }
-      ]}
+      languageAlternates={languageAlternates}
      twitter={{
         creator: "@datanautes",
         site: "@datanautes",
