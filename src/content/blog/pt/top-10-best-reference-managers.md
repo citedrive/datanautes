@@ -1,115 +1,115 @@
 ---
-title:  "Top 10 Best Reference Managers"
+title: "Os 10 Melhores Gerenciadores de Referências"
 date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
-description: "Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs."
+description: "Gerenciar referências para artigos acadêmicos, teses ou até mesmo relatórios simples pode ser uma tarefa desafiadora. Ter as ferramentas certas pode tornar esse processo suave e eficiente. Neste artigo, exploraremos os 10 melhores gerenciadores de referências, garantindo que você escolha o melhor de acordo com suas necessidades."
 ---
 
-Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs.
+Gerenciar referências para artigos acadêmicos, teses ou até mesmo relatórios simples pode ser uma tarefa desafiadora. Ter as ferramentas certas pode tornar esse processo suave e eficiente. Neste artigo, exploraremos os 10 melhores gerenciadores de referências, garantindo que você escolha o melhor de acordo com suas necessidades.
 
 ## 1. **CiteDrive**
 
 **Website:** [CiteDrive.com](https://citedrive.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- Cloud-based, ensuring access from any device at any time.
-- Collaborative features, making group research more manageable.
-- Seamless integration with academic databases.
-- Offers citation styles across a broad range of disciplines.
-- User-friendly interface, making it easy even for those new to reference management.
+- Baseado na nuvem, garantindo acesso de qualquer dispositivo a qualquer momento.
+- Recursos de colaboração, facilitando a pesquisa em grupo.
+- Integração perfeita com bancos de dados acadêmicos.
+- Oferece estilos de citação para uma ampla gama de disciplinas.
+- Interface amigável, facilitando o uso até para quem é novo no gerenciamento de referências.
 
 ## 2. **Zotero**
 
 **Website:** [zotero.org](https://www.zotero.org/)
 
-**Features:**
+**Funcionalidades:**
 
-- Open-source and free.
-- Browser integration to easily collect sources.
-- Supports a variety of citation styles.
-- Collaboration through Zotero groups.
+- Código aberto e gratuito.
+- Integração com navegador para coletar fontes facilmente.
+- Suporta uma variedade de estilos de citação.
+- Colaboração através de grupos Zotero.
 
 ## 3. **Mendeley**
 
 **Website:** [mendeley.com](https://www.mendeley.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- PDF viewer with annotation capabilities.
-- Social network for researchers.
-- Mobile app available for on-the-go access.
+- Visualizador de PDF com recursos de anotação.
+- Rede social para pesquisadores.
+- Aplicativo móvel disponível para acesso em movimento.
 
 ## 4. **EndNote**
 
 **Website:** [endnote.com](https://www.endnote.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- Robust library management features.
-- Integrates well with Microsoft Word for in-text citations and bibliographies.
-- Sync across multiple devices.
+- Recursos robustos de gerenciamento de bibliotecas.
+- Integra bem com o Microsoft Word para citações no texto e bibliografias.
+- Sincronização entre múltiplos dispositivos.
 
 ## 5. **RefWorks**
 
 **Website:** [refworks.proquest.com](https://refworks.proquest.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- Web-based, offering access from anywhere.
-- Collaborative tools for team research projects.
-- Integration with many academic databases.
+- Baseado na web, oferecendo acesso de qualquer lugar.
+- Ferramentas colaborativas para projetos de pesquisa em equipe.
+- Integração com muitos bancos de dados acadêmicos.
 
 ## 6. **Citavi**
 
 **Website:** [citavi.com](https://www.citavi.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- Knowledge organization and task management tools.
-- Windows-exclusive.
-- Extensive citation style options.
+- Ferramentas de organização do conhecimento e gestão de tarefas.
+- Exclusivo para Windows.
+- Extensas opções de estilos de citação.
 
 ## 7. **Citeulike**
 
 **Website:** [citeulike.org](http://www.citeulike.org/)
 
-**Features:**
+**Funcionalidades:**
 
-- Free online service to manage and discover scholarly references.
-- Collaborative tagging and recommendation system.
+- Serviço online gratuito para gerenciar e descobrir referências acadêmicas.
+- Sistema de marcação colaborativa e recomendações.
 
 ## 8. **Qiqqa**
 
 **Website:** [qiqqa.com](https://www.qiqqa.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- PDF annotation and review tools.
-- Mind-mapping tool for idea organization.
-- Open-source.
+- Ferramentas de anotação e revisão de PDF.
+- Ferramenta de mapeamento mental para organização de ideias.
+- Código aberto.
 
 ## 9. **ReadCube**
 
 **Website:** [readcube.com](https://www.readcube.com/)
 
-**Features:**
+**Funcionalidades:**
 
-- Enhanced PDF reading.
-- Recommendations based on personal library.
-- Sync across multiple devices.
+- Leitura de PDF aprimorada.
+- Recomendações baseadas em biblioteca pessoal.
+- Sincronização entre múltiplos dispositivos.
 
 ## 10. **Docear**
 
 **Website:** [docear.org](http://www.docear.org/)
 
-**Features:**
+**Funcionalidades:**
 
-- Single-section user-interface.
-- Integration of mind-mapping and word processing.
-- Open-source and free.
+- Interface de usuário de seção única.
+- Integração de mapeamento mental e processamento de texto.
+- Código aberto e gratuito.
 
 ---
 
-Choosing the right reference manager can significantly streamline your research and writing process. Whether you prioritize collaboration, wide-ranging citation styles, or unique tools like mind-mapping, there's an option out there for every researcher. Don't hesitate to experiment with a few to find the one that fits your workflow best.
+Escolher o gerenciador de referências certo pode agilizar significativamente seu processo de pesquisa e escrita. Seja você alguém que prioriza a colaboração, uma ampla gama de estilos de citação, ou ferramentas únicas como o mapeamento mental, há uma opção para cada pesquisador. Não hesite em experimentar alguns para encontrar o que melhor se adapta ao seu fluxo de trabalho.

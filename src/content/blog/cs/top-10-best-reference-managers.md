@@ -1,115 +1,115 @@
 ---
-title:  "Top 10 Best Reference Managers"
+title: "Top 10 Nejlepších Správců Referencí"
 date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
-description: "Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs."
+description: "Správa referencí pro odborné práce, disertace nebo i jednoduché zprávy může být náročný úkol. Mít správné nástroje může tento proces usnadnit a zefektivnit. V tomto článku prozkoumáme 10 nejlepších správců referencí, abyste si mohli vybrat toho nejvhodnějšího pro vaše potřeby."
 ---
 
-Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs.
+Správa referencí pro odborné práce, disertace nebo i jednoduché zprávy může být náročný úkol. Mít správné nástroje může tento proces usnadnit a zefektivnit. V tomto článku prozkoumáme 10 nejlepších správců referencí, abyste si mohli vybrat toho nejvhodnějšího pro vaše potřeby.
 
 ## 1. **CiteDrive**
 
-**Website:** [CiteDrive.com](https://citedrive.com/)
+**Webová stránka:** [CiteDrive.com](https://citedrive.com/)
 
-**Features:**
+**Funkce:**
 
-- Cloud-based, ensuring access from any device at any time.
-- Collaborative features, making group research more manageable.
-- Seamless integration with academic databases.
-- Offers citation styles across a broad range of disciplines.
-- User-friendly interface, making it easy even for those new to reference management.
+- Cloudové řešení, zajišťující přístup z jakéhokoli zařízení kdykoli.
+- Spolupráce na funkcích, usnadňující skupinový výzkum.
+- Bezproblémová integrace s akademickými databázemi.
+- Nabídka citačních stylů pro širokou škálu disciplín.
+- Uživatelsky přívětivé rozhraní, snadno použitelné i pro začátečníky ve správě referencí.
 
 ## 2. **Zotero**
 
-**Website:** [zotero.org](https://www.zotero.org/)
+**Webová stránka:** [zotero.org](https://www.zotero.org/)
 
-**Features:**
+**Funkce:**
 
-- Open-source and free.
-- Browser integration to easily collect sources.
-- Supports a variety of citation styles.
-- Collaboration through Zotero groups.
+- Otevřený zdroj a zdarma.
+- Integrace s webovým prohlížečem pro snadné sbírání zdrojů.
+- Podpora různých citačních stylů.
+- Spolupráce prostřednictvím skupin Zotero.
 
 ## 3. **Mendeley**
 
-**Website:** [mendeley.com](https://www.mendeley.com/)
+**Webová stránka:** [mendeley.com](https://www.mendeley.com/)
 
-**Features:**
+**Funkce:**
 
-- PDF viewer with annotation capabilities.
-- Social network for researchers.
-- Mobile app available for on-the-go access.
+- Prohlížeč PDF s možností anotací.
+- Sociální síť pro výzkumníky.
+- Mobilní aplikace pro přístup na cestách.
 
 ## 4. **EndNote**
 
-**Website:** [endnote.com](https://www.endnote.com/)
+**Webová stránka:** [endnote.com](https://www.endnote.com/)
 
-**Features:**
+**Funkce:**
 
-- Robust library management features.
-- Integrates well with Microsoft Word for in-text citations and bibliographies.
-- Sync across multiple devices.
+- Robustní funkce pro správu knihovny.
+- Dobrá integrace s Microsoft Word pro v-textové citace a bibliografie.
+- Synchronizace napříč více zařízeními.
 
 ## 5. **RefWorks**
 
-**Website:** [refworks.proquest.com](https://refworks.proquest.com/)
+**Webová stránka:** [refworks.proquest.com](https://refworks.proquest.com/)
 
-**Features:**
+**Funkce:**
 
-- Web-based, offering access from anywhere.
-- Collaborative tools for team research projects.
-- Integration with many academic databases.
+- Webová platforma, nabízející přístup odkudkoli.
+- Spolupracovní nástroje pro týmové výzkumné projekty.
+- Integrace s mnoha akademickými databázemi.
 
 ## 6. **Citavi**
 
-**Website:** [citavi.com](https://www.citavi.com/)
+**Webová stránka:** [citavi.com](https://www.citavi.com/)
 
-**Features:**
+**Funkce:**
 
-- Knowledge organization and task management tools.
-- Windows-exclusive.
-- Extensive citation style options.
+- Nástroje pro organizaci znalostí a správu úkolů.
+- Exkluzivně pro Windows.
+- Rozsáhlé možnosti citačních stylů.
 
 ## 7. **Citeulike**
 
-**Website:** [citeulike.org](http://www.citeulike.org/)
+**Webová stránka:** [citeulike.org](http://www.citeulike.org/)
 
-**Features:**
+**Funkce:**
 
-- Free online service to manage and discover scholarly references.
-- Collaborative tagging and recommendation system.
+- Bezplatná online služba pro správu a objevování odborných referencí.
+- Spolupracovní značení a doporučovací systém.
 
 ## 8. **Qiqqa**
 
-**Website:** [qiqqa.com](https://www.qiqqa.com/)
+**Webová stránka:** [qiqqa.com](https://www.qiqqa.com/)
 
-**Features:**
+**Funkce:**
 
-- PDF annotation and review tools.
-- Mind-mapping tool for idea organization.
-- Open-source.
+- Nástroje pro anotaci a recenzi PDF.
+- Nástroje pro tvorbu myšlenkových map pro organizaci nápadů.
+- Otevřený zdroj.
 
 ## 9. **ReadCube**
 
-**Website:** [readcube.com](https://www.readcube.com/)
+**Webová stránka:** [readcube.com](https://www.readcube.com/)
 
-**Features:**
+**Funkce:**
 
-- Enhanced PDF reading.
-- Recommendations based on personal library.
-- Sync across multiple devices.
+- Vylepšené čtení PDF.
+- Doporučení na základě osobní knihovny.
+- Synchronizace napříč více zařízeními.
 
 ## 10. **Docear**
 
-**Website:** [docear.org](http://www.docear.org/)
+**Webová stránka:** [docear.org](http://www.docear.org/)
 
-**Features:**
+**Funkce:**
 
-- Single-section user-interface.
-- Integration of mind-mapping and word processing.
-- Open-source and free.
+- Uživatelské rozhraní s jednou sekcí.
+- Integrace tvorby myšlenkových map a textového zpracování.
+- Otevřený zdroj a zdarma.
 
 ---
 
-Choosing the right reference manager can significantly streamline your research and writing process. Whether you prioritize collaboration, wide-ranging citation styles, or unique tools like mind-mapping, there's an option out there for every researcher. Don't hesitate to experiment with a few to find the one that fits your workflow best.
+Výběr správného správce referencí může výrazně zefektivnit váš výzkum a psaní. Ať už upřednostňujete spolupráci, různorodé citační styly, nebo unikátní nástroje jako jsou myšlenkové mapy, existuje možnost pro každého výzkumníka. Neváhejte experimentovat s několika, abyste našli ten, který nejlépe odpovídá vašemu pracovnímu postupu.

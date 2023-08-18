@@ -7,7 +7,7 @@ export const languages = {
 	fr: 'Français',
 	sv: 'Svenska',
 	tr: 'Türkçe',
-    'zh-CH': '中文（中国',
+    'zh-CN': '中文（中国',
 	da: 'Dansk',
 	it: 'Italiano',
 	ja: '日本語',
@@ -43,7 +43,7 @@ export const ui = {
 	tr: {
 		'footer.copyright': `Telif Hakkı © ${date} datanautes. Tüm hakları saklıdır.`,
 	},
-	'zh-CH': {
+	'zh-CN': {
 		'footer.copyright': `版权 © ${date} datanautes. 保留所有权利。`,
 	},
 	da: {

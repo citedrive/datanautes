@@ -1,6 +1,7 @@
 ---
 title: "Top Data Visualization Packages for R: A Guide for 2023"
 description: "A comprehensive guide highlighting the top data visualization packages available for R in 2023, showcasing their features, use cases, and unique capabilities."
+tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
 ---
@@ -8,6 +9,7 @@ date: "2023-08-15"
 ## [ggplot2](https://ggplot2.tidyverse.org/)
 
 **ggplot2** provides the most feature-rich and versatile graph creation package based on the **grammar of graphics** framework as part of the robust **tidyverse** ecosystem. This principle breaks down graphs into components such as datasets, scales, levels, and so on. In a declarative manner, the user combines these components to describe and create any diagram.
+
 
 This method has become so popular that it has effectively replaced R’s native diagrams and added several extensions, some of which will be discussed here.
 
@@ -86,3 +88,4 @@ The emphasis of Plotly is on interactive, publication-quality diagrams. There ar
 ## [Lattice](http://lattice.r-forge.r-project.org/)
 
 Lattice is a powerful and elegant high-level data visualization system inspired by Trellis graphics, with a focus on multivariate data. While adequate for most graphing needs, Lattice is adaptable enough to meet the majority of non-standard requirements.
+w

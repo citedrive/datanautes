@@ -1,6 +1,7 @@
 ---
 title: "Top Data Visualization Packages for R: A Guide for 2023"
 description: "A comprehensive guide highlighting the top data visualization packages available for R in 2023, showcasing their features, use cases, and unique capabilities."
+tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
 ---

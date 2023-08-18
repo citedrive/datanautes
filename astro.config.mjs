@@ -29,7 +29,7 @@ export default defineConfig({
         fr: 'fr-FR',
         sv: 'sv-SE',
         tr: 'tr-TR',
-        'zh-CH': 'zh-CN',
+        'zh-CN': 'zh-CN',
         da: 'da-DK',
         it: 'it-IT',
         ja: 'ja-JP',

@@ -1,115 +1,115 @@
 ---
-title:  "Top 10 Best Reference Managers"
+title: "최고의 10가지 참고문헌 관리 도구"
 date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
-description: "Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs."
+description: "학술 논문, 학위 논문 또는 간단한 보고서의 참고문헌을 관리하는 것은 어려운 작업일 수 있습니다. 적절한 도구를 사용하면 이 과정을 원활하고 효율적으로 만들 수 있습니다. 이 글에서는 귀하의 필요에 가장 잘 맞는 참고문헌 관리 도구 10가지를 살펴봄으로써, 최적의 선택을 할 수 있도록 도와드리겠습니다."
 ---
 
-Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs.
+학술 논문, 학위 논문 또는 간단한 보고서의 참고문헌을 관리하는 것은 어려운 작업일 수 있습니다. 적절한 도구를 사용하면 이 과정을 원활하고 효율적으로 만들 수 있습니다. 이 글에서는 귀하의 필요에 가장 잘 맞는 참고문헌 관리 도구 10가지를 살펴봄으로써, 최적의 선택을 할 수 있도록 도와드리겠습니다.
 
 ## 1. **CiteDrive**
 
-**Website:** [CiteDrive.com](https://citedrive.com/)
+**웹사이트:** [CiteDrive.com](https://citedrive.com/)
 
-**Features:**
+**기능:**
 
-- Cloud-based, ensuring access from any device at any time.
-- Collaborative features, making group research more manageable.
-- Seamless integration with academic databases.
-- Offers citation styles across a broad range of disciplines.
-- User-friendly interface, making it easy even for those new to reference management.
+- 클라우드 기반, 언제 어디서나 어떤 기기에서든 액세스 가능
+- 협업 기능, 그룹 연구 관리를 더욱 용이하게 함
+- 학술 데이터베이스와의 원활한 통합
+- 다양한 학문 분야에 걸친 인용 스타일 제공
+- 참고문헌 관리를 처음 하는 사람들도 쉽게 사용할 수 있는 사용자 친화적 인터페이스
 
 ## 2. **Zotero**
 
-**Website:** [zotero.org](https://www.zotero.org/)
+**웹사이트:** [zotero.org](https://www.zotero.org/)
 
-**Features:**
+**기능:**
 
-- Open-source and free.
-- Browser integration to easily collect sources.
-- Supports a variety of citation styles.
-- Collaboration through Zotero groups.
+- 오픈소스이며 무료
+- 웹 브라우저 통합으로 소스를 쉽게 수집 가능
+- 다양한 인용 스타일 지원
+- Zotero 그룹을 통한 협업 가능
 
 ## 3. **Mendeley**
 
-**Website:** [mendeley.com](https://www.mendeley.com/)
+**웹사이트:** [mendeley.com](https://www.mendeley.com/)
 
-**Features:**
+**기능:**
 
-- PDF viewer with annotation capabilities.
-- Social network for researchers.
-- Mobile app available for on-the-go access.
+- 주석 기능이 있는 PDF 뷰어
+- 연구자들을 위한 소셜 네트워크
+- 이동 중에도 접근할 수 있는 모바일 앱 사용 가능
 
 ## 4. **EndNote**
 
-**Website:** [endnote.com](https://www.endnote.com/)
+**웹사이트:** [endnote.com](https://www.endnote.com/)
 
-**Features:**
+**기능:**
 
-- Robust library management features.
-- Integrates well with Microsoft Word for in-text citations and bibliographies.
-- Sync across multiple devices.
+- 강력한 라이브러리 관리 기능
+- 인텍스트 인용과 서지 목록을 위한 Microsoft Word와의 원활한 통합
+- 여러 기기 간 동기화 가능
 
 ## 5. **RefWorks**
 
-**Website:** [refworks.proquest.com](https://refworks.proquest.com/)
+**웹사이트:** [refworks.proquest.com](https://refworks.proquest.com/)
 
-**Features:**
+**기능:**
 
-- Web-based, offering access from anywhere.
-- Collaborative tools for team research projects.
-- Integration with many academic databases.
+- 웹 기반, 어디서든 액세스 가능
+- 팀 연구 프로젝트를 위한 협업 도구
+- 다수의 학술 데이터베이스와 통합 가능
 
 ## 6. **Citavi**
 
-**Website:** [citavi.com](https://www.citavi.com/)
+**웹사이트:** [citavi.com](https://www.citavi.com/)
 
-**Features:**
+**기능:**
 
-- Knowledge organization and task management tools.
-- Windows-exclusive.
-- Extensive citation style options.
+- 지식 구성 및 작업 관리 도구
+- Windows 전용
+- 광범위한 인용 스타일 옵션
 
 ## 7. **Citeulike**
 
-**Website:** [citeulike.org](http://www.citeulike.org/)
+**웹사이트:** [citeulike.org](http://www.citeulike.org/)
 
-**Features:**
+**기능:**
 
-- Free online service to manage and discover scholarly references.
-- Collaborative tagging and recommendation system.
+- 학술 참고문헌을 관리하고 발견할 수 있는 무료 온라인 서비스
+- 협업 태깅 및 추천 시스템
 
 ## 8. **Qiqqa**
 
-**Website:** [qiqqa.com](https://www.qiqqa.com/)
+**웹사이트:** [qiqqa.com](https://www.qiqqa.com/)
 
-**Features:**
+**기능:**
 
-- PDF annotation and review tools.
-- Mind-mapping tool for idea organization.
-- Open-source.
+- PDF 주석 및 검토 도구
+- 아이디어 구성을 위한 마인드 맵 도구
+- 오픈소스
 
 ## 9. **ReadCube**
 
-**Website:** [readcube.com](https://www.readcube.com/)
+**웹사이트:** [readcube.com](https://www.readcube.com/)
 
-**Features:**
+**기능:**
 
-- Enhanced PDF reading.
-- Recommendations based on personal library.
-- Sync across multiple devices.
+- 향상된 PDF 읽기 기능
+- 개인 라이브러리를 기반으로 한 추천
+- 여러 기기 간 동기화 가능
 
 ## 10. **Docear**
 
-**Website:** [docear.org](http://www.docear.org/)
+**웹사이트:** [docear.org](http://www.docear.org/)
 
-**Features:**
+**기능:**
 
-- Single-section user-interface.
-- Integration of mind-mapping and word processing.
-- Open-source and free.
+- 단일 섹션 사용자 인터페이스
+- 마인드 맵핑과 워드 프로세싱의 통합
+- 오픈소스이며 무료
 
 ---
 
-Choosing the right reference manager can significantly streamline your research and writing process. Whether you prioritize collaboration, wide-ranging citation styles, or unique tools like mind-mapping, there's an option out there for every researcher. Don't hesitate to experiment with a few to find the one that fits your workflow best.
+적절한 참고문헌 관리 도구를 선택하는 것은 귀하의 연구와 글쓰기 과정을 크게 간소화할 수 있습니다. 협업을 우선시하든, 다양한 인용 스타일을 중요시하든, 마인드 맵핑과 같은 독특한 도구를 선호하든, 모든 연구자에게 적합한 옵션이 있습니다. 여러 가지를

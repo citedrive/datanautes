@@ -1,115 +1,115 @@
 ---
-title:  "Top 10 Best Reference Managers"
+title: "En İyi 10 Referans Yöneticisi"
 date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
-description: "Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs."
+description: "Akademik makaleler, tezler veya basit raporlar için referansları yönetmek zorlu bir görev olabilir. Doğru araçlara sahip olmak, bu süreci sorunsuz ve verimli bir hale getirebilir. Bu makalede, ihtiyaçlarınıza en uygun olanı seçmenizi sağlamak için en iyi 10 referans yöneticisini inceleyeceğiz."
 ---
 
-Managing references for academic papers, theses, or even simple reports can be a challenging task. Having the right tools can make this process seamless and efficient. In this article, we will explore the top 10 best reference managers, ensuring you pick the best one suited to your needs.
+Akademik makaleler, tezler veya basit raporlar için referansları yönetmek zorlu bir görev olabilir. Doğru araçlara sahip olmak, bu süreci sorunsuz ve verimli bir hale getirebilir. Bu makalede, ihtiyaçlarınıza en uygun olanı seçmenizi sağlamak için en iyi 10 referans yöneticisini inceleyeceğiz.
 
 ## 1. **CiteDrive**
 
-**Website:** [CiteDrive.com](https://citedrive.com/)
+**Web Sitesi:** [CiteDrive.com](https://citedrive.com/)
 
-**Features:**
+**Özellikler:**
 
-- Cloud-based, ensuring access from any device at any time.
-- Collaborative features, making group research more manageable.
-- Seamless integration with academic databases.
-- Offers citation styles across a broad range of disciplines.
-- User-friendly interface, making it easy even for those new to reference management.
+- Bulut tabanlı, herhangi bir cihazdan her zaman erişim sağlama.
+- İşbirlikli özellikler, grup araştırmalarını daha yönetilebilir hale getirir.
+- Akademik veritabanlarıyla sorunsuz entegrasyon.
+- Geniş bir disiplin yelpazesi için atıf stilleri sunar.
+- Kullanıcı dostu arayüz, referans yönetimine yeni olanlar için bile kolay.
 
 ## 2. **Zotero**
 
-**Website:** [zotero.org](https://www.zotero.org/)
+**Web Sitesi:** [zotero.org](https://www.zotero.org/)
 
-**Features:**
+**Özellikler:**
 
-- Open-source and free.
-- Browser integration to easily collect sources.
-- Supports a variety of citation styles.
-- Collaboration through Zotero groups.
+- Açık kaynak ve ücretsiz.
+- Kaynakları kolayca toplamak için tarayıcı entegrasyonu.
+- Çeşitli atıf stillerini destekler.
+- Zotero grupları aracılığıyla işbirliği.
 
 ## 3. **Mendeley**
 
-**Website:** [mendeley.com](https://www.mendeley.com/)
+**Web Sitesi:** [mendeley.com](https://www.mendeley.com/)
 
-**Features:**
+**Özellikler:**
 
-- PDF viewer with annotation capabilities.
-- Social network for researchers.
-- Mobile app available for on-the-go access.
+- Not ekleme yetenekleriyle birlikte PDF görüntüleyici.
+- Araştırmacılar için sosyal ağ.
+- Yolda erişim için mobil uygulama mevcut.
 
 ## 4. **EndNote**
 
-**Website:** [endnote.com](https://www.endnote.com/)
+**Web Sitesi:** [endnote.com](https://www.endnote.com/)
 
-**Features:**
+**Özellikler:**
 
-- Robust library management features.
-- Integrates well with Microsoft Word for in-text citations and bibliographies.
-- Sync across multiple devices.
+- Güçlü kütüphane yönetim özellikleri.
+- Metin içi atıflar ve bibliyografyalar için Microsoft Word ile iyi entegre olur.
+- Birden çok cihaz arasında senkronizasyon.
 
 ## 5. **RefWorks**
 
-**Website:** [refworks.proquest.com](https://refworks.proquest.com/)
+**Web Sitesi:** [refworks.proquest.com](https://refworks.proquest.com/)
 
-**Features:**
+**Özellikler:**
 
-- Web-based, offering access from anywhere.
-- Collaborative tools for team research projects.
-- Integration with many academic databases.
+- Web tabanlı, her yerden erişim sunar.
+- Ekip araştırma projeleri için işbirlikçi araçlar.
+- Birçok akademik veritabanı ile entegrasyon.
 
 ## 6. **Citavi**
 
-**Website:** [citavi.com](https://www.citavi.com/)
+**Web Sitesi:** [citavi.com](https://www.citavi.com/)
 
-**Features:**
+**Özellikler:**
 
-- Knowledge organization and task management tools.
-- Windows-exclusive.
-- Extensive citation style options.
+- Bilgi organizasyonu ve görev yönetimi araçları.
+- Yalnızca Windows'a özgü.
+- Geniş atıf stili seçenekleri.
 
 ## 7. **Citeulike**
 
-**Website:** [citeulike.org](http://www.citeulike.org/)
+**Web Sitesi:** [citeulike.org](http://www.citeulike.org/)
 
-**Features:**
+**Özellikler:**
 
-- Free online service to manage and discover scholarly references.
-- Collaborative tagging and recommendation system.
+- Bilimsel referansları yönetmek ve keşfetmek için ücretsiz online servis.
+- İşbirlikçi etiketleme ve tavsiye sistemi.
 
 ## 8. **Qiqqa**
 
-**Website:** [qiqqa.com](https://www.qiqqa.com/)
+**Web Sitesi:** [qiqqa.com](https://www.qiqqa.com/)
 
-**Features:**
+**Özellikler:**
 
-- PDF annotation and review tools.
-- Mind-mapping tool for idea organization.
-- Open-source.
+- PDF not alma ve gözden geçirme araçları.
+- Fikir organizasyonu için zihin haritası aracı.
+- Açık kaynak.
 
 ## 9. **ReadCube**
 
-**Website:** [readcube.com](https://www.readcube.com/)
+**Web Sitesi:** [readcube.com](https://www.readcube.com/)
 
-**Features:**
+**Özellikler:**
 
-- Enhanced PDF reading.
-- Recommendations based on personal library.
-- Sync across multiple devices.
+- Gelişmiş PDF okuma.
+- Kişisel kütüphaneye dayalı tavsiyeler.
+- Birden çok cihaz arasında senkronizasyon.
 
 ## 10. **Docear**
 
-**Website:** [docear.org](http://www.docear.org/)
+**Web Sitesi:** [docear.org](http://www.docear.org/)
 
-**Features:**
+**Özellikler:**
 
-- Single-section user-interface.
-- Integration of mind-mapping and word processing.
-- Open-source and free.
+- Tek bölümlü kullanıcı arayüzü.
+- Zihin haritası ve kelime işlem entegrasyonu.
+- Açık kaynak ve ücretsiz.
 
 ---
 
-Choosing the right reference manager can significantly streamline your research and writing process. Whether you prioritize collaboration, wide-ranging citation styles, or unique tools like mind-mapping, there's an option out there for every researcher. Don't hesitate to experiment with a few to find the one that fits your workflow best.
+Doğru referans yöneticisini seçmek, araştırma ve yazma sürecinizi önemli ölçüde basitleştirebilir. İster işbirliğini, geniş atıf stillerini, ya da zihin haritası gibi benzersiz araçları öncelikli tutun, her araştırmacı için bir seçenek vardır. İş akışınıza en uygun olanı bulmak için birkaçıyla denemekten çekinmeyin.

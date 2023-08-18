@@ -33,12 +33,21 @@ export const getStaticPaths = () =>
                 <time datetime="2020-03-16" class="text-gray-500">
                   {blogPostEntry.data.date.toString()}
                 </time>
-                <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
-                  {blogPostEntry.data.tags &&
-                    blogPostEntry.data.tags.length > 0
-                      ? blogPostEntry.data.tags[0]
-                      : "No tags"}
-                </div>
+              
+                {
+  blogPostEntry.data.tags && blogPostEntry.data.tags.length > 0
+    ? blogPostEntry.data.tags.map((tag, index) => (
+        <div
+
+          class="cursor-pointer relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+        >
+          {tag}
+        </div>
+      ))
+    : "No tags"
+}
+             
+                
               </div>
               <div class="group relative">
                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
