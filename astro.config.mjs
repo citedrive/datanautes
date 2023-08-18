@@ -16,14 +16,27 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   trailingSlash: 'always',
-  site: 'https://www.datanautes.com',
+  site: 'https://datanautes.com',
   integrations: [tailwind(), alpinejs(), mdx(), sitemap({
-    i18n: {
-      defaultLocale: 'en', // All urls that don't contain `es` or `fr` after `https://stargazers.club/` will be treated as default locale, i.e. `en`
+     i18n = {
+      defaultLocale: 'en', 
       locales: {
-        en: 'en-US', // The `defaultLocale` value must present in `locales` keys
+        en: 'en-US',
         de: 'de-DE',
+        cs: 'cs-CZ',
+        es: 'es-ES',
+        pt: 'pt-BR',
+        fr: 'fr-FR',
+        sv: 'sv-SE',
+        tr: 'tr-TR',
+        'zh-CH': 'zh-CN',
+        da: 'da-DK',
+        it: 'it-IT',
+        ja: 'ja-JP',
+        ko: 'ko-KR',
+        no: 'no-NO',
+        ru: 'ru-RU',
       },
-    },
+    };
   }), preact(), react()]
 });
