@@ -18,7 +18,7 @@ export default defineConfig({
   trailingSlash: 'always',
   site: 'https://datanautes.com',
   integrations: [tailwind(), alpinejs(), mdx(), sitemap({
-     i18n = {
+     i18n: {
       defaultLocale: 'en', 
       locales: {
         en: 'en-US',
