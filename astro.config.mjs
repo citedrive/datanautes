@@ -37,6 +37,6 @@ export default defineConfig({
         no: 'no-NO',
         ru: 'ru-RU',
       },
-    };
+    }
   }), preact(), react()]
 });
