@@ -17,7 +17,10 @@ import react from "@astrojs/react";
 export default defineConfig({
   trailingSlash: 'always',
   site: 'https://datanautes.com',
-  integrations: [tailwind(), alpinejs(), mdx(), sitemap({
+  integrations: [tailwind(), alpinejs(), mdx(), sitemap(), preact(), react()]
+});
+
+/*{
      i18n: {
       defaultLocale: 'en', 
       locales: {
@@ -29,7 +32,7 @@ export default defineConfig({
         fr: 'fr-FR',
         sv: 'sv-SE',
         tr: 'tr-TR',
-        'zh-CN': 'zh-CN',
+        'zh-cn': 'zh-cn',
         da: 'da-DK',
         it: 'it-IT',
         ja: 'ja-JP',
@@ -38,5 +41,4 @@ export default defineConfig({
         ru: 'ru-RU',
       },
     }
-  }), preact(), react()]
-});
+  }*/

@@ -13,7 +13,10 @@ export interface Props {
 }
 const resolvedImageWithDomain = new URL("/opengraph.jpg", BC_URL).toString();
 const { title, description } = Astro.props;
-const currentPath = Astro.url.pathname.substring(4);
+const currentPath =  Astro.url.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?\//, '');
+
+
+
 
 const languageAlternates = Object.keys(languages).map(langCode => {
   return {
