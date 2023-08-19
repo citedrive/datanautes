@@ -9,7 +9,7 @@ interface Props {
 
 const LanguageSelector: React.FC<Props> = ({ lang, languages }) => {
   return (
-    <label className="language-select-wrapper">
+    <label >
       <select
         value={lang}
         onChange={(e: ChangeEvent<HTMLSelectElement>) => {
