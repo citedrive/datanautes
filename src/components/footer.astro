@@ -1,23 +1,28 @@
 ---
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { languages } from "../i18n/languages";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+import LanguageSelector from "./language-select"
+const currentPath =  Astro.url.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?\//, '');
 ---
 
 
 
 <footer class="my-20">
-  {/* 
+<LanguageSelector lang={lang} languages={languages} client:idle/>
+{/* 
   <ul>
     {Object.entries(languages).map(([lang, label]) => (
       <li>
-        <a href={`/${lang}`}>{label}</a>
+        <a href={`/${lang}/${currentPath}/`}>{label}</a>
       </li>
     ))}
-  </ul>*/}
+  </ul> */}
   <p class="text-center text-sm text-slate-500" >
     {t('footer.copyright')}
   </p>
 
   </p>
 </footer>
+
