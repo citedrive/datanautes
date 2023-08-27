@@ -10,13 +10,14 @@ interface Props {
 const LanguageSelector: React.FC<Props> = ({ lang, languages }) => {
   return (
     <label >
-      <select
+        <select
+        id="languageSelector"
         value={lang}
         onChange={(e: ChangeEvent<HTMLSelectElement>) => {
-        const newLang = e.currentTarget.value;
-        const [_leadingSlash, _oldLang, ...rest] = window.location.pathname.split('/');
-        const slug = rest.join('/');
-        window.location.pathname = `/${newLang}/${slug}`;
+          const newLang = e.currentTarget.value;
+          const [_leadingSlash, _oldLang, ...rest] = window.location.pathname.split('/');
+          const slug = rest.join('/');
+          window.location.pathname = `/${newLang}/${slug}`;
         }}
         className="bg-white text-gray-800 rounded-full px-4 py-2 shadow-lg focus:ring focus:ring-opacity-50"
       >
