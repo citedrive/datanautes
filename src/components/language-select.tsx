@@ -10,11 +10,8 @@ languages: {
 const LanguageSelector: React.FC<Props> = ({ lang, languages }) => {
 return (
   <div>
-    <label htmlFor="languageSelector" className="block text-gray-700">
-      Select Language
-    </label>
     <select
-      id="languageSelector"
+      aria-label="Language Selector"
       value={lang}
       onChange={(e: ChangeEvent<HTMLSelectElement>) => {
         const newLang = e.currentTarget.value;
