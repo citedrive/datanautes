@@ -3,10 +3,8 @@ import tailwind from "@astrojs/tailwind";
 import alpinejs from "@astrojs/alpinejs";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-
 import preact from "@astrojs/preact";
 
-// https://astro.build/config
 import react from "@astrojs/react";
 
 // https://astro.build/config
@@ -14,10 +12,13 @@ import react from "@astrojs/react";
 // https://astro.build/config
 
 // https://astro.build/config
+import partytown from "@astrojs/partytown";
+
+// https://astro.build/config
 export default defineConfig({
   trailingSlash: 'always',
   site: 'https://datanautes.com',
-  integrations: [tailwind(), alpinejs(), mdx(), sitemap(), preact(), react()]
+  integrations: [tailwind(), alpinejs(), mdx(), sitemap(), preact(), react(), partytown()]
 });
 
 /*{
