@@ -4,8 +4,8 @@ import { getLangFromSlug, stripLangFromSlug } from "../../utils";
 import Layout from "../../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 const { lang } = Astro.params;
-const blogEntries = await getCollection("blog", ({ id }) => {
-  return id.startsWith(lang + "/");
+const blogEntries = await getCollection("blog", ({ id, data }) => {
+  return id.startsWith(lang + "/") && data.isLocalized;
 });
 
 export const getStaticPaths = () =>

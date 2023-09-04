@@ -4,6 +4,7 @@ description: "2023년의 R에서 데이터 시각화를 위한 최고의 패키�
 tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
+isLocalized: true
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)

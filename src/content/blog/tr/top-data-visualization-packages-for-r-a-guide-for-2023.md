@@ -4,6 +4,7 @@ description: "2023 yılı için mevcut olan en iyi veri görselleştirme paketle
 tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
+isLocalized: true
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)

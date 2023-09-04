@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Správa referencí pro odborné práce, disertace nebo i jednoduché zprávy může být náročný úkol. Mít správné nástroje může tento proces usnadnit a zefektivnit. V tomto článku prozkoumáme 10 nejlepších správců referencí, abyste si mohli vybrat toho nejvhodnějšího pro vaše potřeby."
+isLocalized: true
 ---
 
 Správa referencí pro odborné práce, disertace nebo i jednoduché zprávy může být náročný úkol. Mít správné nástroje může tento proces usnadnit a zefektivnit. V tomto článku prozkoumáme 10 nejlepších správců referencí, abyste si mohli vybrat toho nejvhodnějšího pro vaše potřeby.

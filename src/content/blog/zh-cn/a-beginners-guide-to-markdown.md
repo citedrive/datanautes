@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "探索面向作家和开发者的用户友好的标记语言——Markdown。提高在GitHub等平台上的内容可读性。查看我们的指南！"
+isLocalized: true
 ---
 
 Markdown是为了简化内容创作而创建的简单语言。它在从GitHub到笔记应用的每个地方都得到了应用。无论您是一名作者、开发者，还是只是想简化在线写作，这本指南都是为您量身定制的！

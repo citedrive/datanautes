@@ -4,6 +4,7 @@ date: "2023-06-26"
 tags: ["LaTeX Editor", "CiteDrive", "Bibliography Management"]
 authors: ["Datanautes Team"]
 description: "2023년의 최고의 LaTeX 편집기를 찾아보고 CiteDrive와 같은 참조 관리 도구가 어떻게 문서 작성 과정을 강화하는지 알아봅니다."
+isLocalized: true
 ---
 
 LaTeX 편집기는 고품질의 기술 문서를 작성하려는 많은 전문가, 연구자, 학생들에게 인기 있는 선택입니다. 2023년에 최고의 LaTeX 편집기를 찾고 있다면, 여기에 10대 LaTeX 편집기 리스트를 제공하겠습니다.

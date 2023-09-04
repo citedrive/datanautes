@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Scopri Markdown: il linguaggio di markup user-friendly utilizzato da scrittori & sviluppatori. Migliora la leggibilità del contenuto web su piattaforme come GitHub. Immergiti nella nostra guida!"
+isLocalized: true
 ---
 
 Markdown è un linguaggio semplice progettato per semplificare la scrittura di contenuti. È utilizzato ovunque, da GitHub alle applicazioni di note. Se sei uno scrittore, uno sviluppatore, o semplicemente qualcuno che vuole semplificare la tua scrittura web, questa guida è per te!

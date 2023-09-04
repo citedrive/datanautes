@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Entdecken Sie Markdown: die benutzerfreundliche Auszeichnungssprache, die von Autoren & Entwicklern verwendet wird. Verbessern Sie die Lesbarkeit von Webinhalten auf Plattformen wie GitHub. Tauchen Sie in unseren Leitfaden ein!"
+isLocalized: true
 ---
 
 Markdown ist eine einfache Sprache, die darauf ausgelegt ist, das Schreiben von Inhalten zu erleichtern. Es wird überall verwendet, von GitHub bis zu Notiz-Apps. Egal, ob Sie ein Autor, Entwickler oder einfach nur jemand sind, der das Schreiben im Web vereinfachen möchte, dieser Leitfaden ist für Sie!

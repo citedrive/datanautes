@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Gestire i riferimenti per articoli accademici, tesi o anche semplici rapporti può essere un compito impegnativo. Avere gli strumenti giusti può rendere questo processo fluido ed efficiente. In questo articolo, esploreremo i 10 migliori gestori di riferimenti bibliografici, per aiutarti a scegliere quello più adatto alle tue esigenze."
+isLocalized: true
 ---
 
 Gestire i riferimenti per articoli accademici, tesi o anche semplici rapporti può essere un compito impegnativo. Avere gli strumenti giusti può rendere questo processo fluido ed efficiente. In questo articolo, esploreremo i 10 migliori gestori di riferimenti bibliografici, per aiutarti a scegliere quello più adatto alle tue esigenze.

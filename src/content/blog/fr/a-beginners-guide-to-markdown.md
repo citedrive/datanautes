@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Découvrez Markdown : le langage de balisage convivial utilisé par les écrivains & développeurs. Améliorez la lisibilité du contenu web sur des plateformes comme GitHub. Plongez dans notre guide!"
+isLocalized: true
 ---
 
 Markdown est un langage simple conçu pour simplifier la rédaction de contenu. Il est utilisé partout, de GitHub aux applications de prise de notes. Que vous soyez écrivain, développeur, ou simplement quelqu'un qui souhaite simplifier votre écriture web, ce guide est pour vous !

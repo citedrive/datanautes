@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Lær Markdown, et brukervennlig markup-språk for å forbedre lesbarheten av webinnhold på plattformer som GitHub. Denne guiden vil vise deg hvordan!"
+isLocalized: true
 ---
 
 Markdown er et enkelt språk for innholdsproduksjon. Fra GitHub til notatapplikasjoner, det brukes overalt. Denne guiden er laget for alle som ønsker å gjøre skriving, utvikling, og nettinnhold enklere.

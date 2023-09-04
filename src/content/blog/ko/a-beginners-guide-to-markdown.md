@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "GitHub 및 다른 플랫폼에서 웹 콘텐츠의 가독성을 향상시키기 위한 사용자 친화적인 마크업 언어인 Markdown을 배우세요. 이 가이드에서는 그 방법을 알려드립니다!"
+isLocalized: true
 ---
 
 Markdown은 콘텐츠 작성을 위한 간단한 언어입니다. GitHub에서부터 노트 애플리케이션까지, 다양한 곳에서 사용됩니다. 이 가이드는 글쓰기, 개발, 그리고 웹 작성을 더 쉽게 하고 싶어하는 모든 분들을 위해 제작되었습니다.

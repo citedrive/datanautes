@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Yazarlar ve geliştiriciler için kullanıcı dostu bir işaretleme dilini, Markdown'ı keşfedin. GitHub gibi platformlarda içerik okunabilirliğinizi artırın. Rehberimize göz atın!"
+isLocalized: true
 ---
 
 Markdown, içerik yazımını kolaylaştırmak amacıyla oluşturulmuş basit bir dildir. GitHub'tan not alma uygulamalarına kadar her yerde kullanılır. Bir yazar, geliştirici ya da sadece çevrimiçi yazı yazmayı kolaylaştırmak isteyen biriyseniz, bu rehber tam size göre!

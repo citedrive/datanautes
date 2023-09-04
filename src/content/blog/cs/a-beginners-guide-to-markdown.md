@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Prozkoumejte Markdown: uživatelsky přívětivý jazyk pro psaní & vývojáře. Zvyšte čitelnost webového obsahu na platformách jako je GitHub. Ponořte se do našeho průvodce!"
+isLocalized: true
 ---
 
 Markdown je jednoduchý jazyk navržený pro zjednodušení psaní obsahu. Používá se všude, od GitHubu po aplikace pro poznámky. Ať už jste spisovatel, vývojář nebo někdo, kdo chce zjednodušit své webové psaní, tento průvodce je pro vás!

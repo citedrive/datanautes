@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Gerenciar referências para artigos acadêmicos, teses ou até mesmo relatórios simples pode ser uma tarefa desafiadora. Ter as ferramentas certas pode tornar esse processo suave e eficiente. Neste artigo, exploraremos os 10 melhores gerenciadores de referências, garantindo que você escolha o melhor de acordo com suas necessidades."
+isLocalized: true
 ---
 
 Gerenciar referências para artigos acadêmicos, teses ou até mesmo relatórios simples pode ser uma tarefa desafiadora. Ter as ferramentas certas pode tornar esse processo suave e eficiente. Neste artigo, exploraremos os 10 melhores gerenciadores de referências, garantindo que você escolha o melhor de acordo com suas necessidades.

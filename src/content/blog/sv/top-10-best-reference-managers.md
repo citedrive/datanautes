@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Att hantera referenser för akademiska uppsatser, avhandlingar eller till och med enkla rapporter kan vara en utmanande uppgift. Att ha rätt verktyg kan göra denna process smidig och effektiv. I denna artikel kommer vi att utforska de 10 bästa referenshanterarna, så att du kan välja den som passar dina behov bäst."
+isLocalized: true
 ---
 
 Att hantera referenser för akademiska uppsatser, avhandlingar eller till och med enkla rapporter kan vara en utmanande uppgift. Att ha rätt verktyg kan göra denna process smidig och effektiv. I denna artikel kommer vi att utforska de 10 bästa referenshanterarna, så att du kan välja den som passar dina behov bäst.

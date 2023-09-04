@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "At håndtere referencer til akademiske artikler, afhandlinger eller endda enkle rapporter kan være en udfordrende opgave. At have de rette værktøjer kan gøre denne proces problemfri og effektiv. I denne artikel vil vi udforske de top 10 bedste referencemanagere, så du kan vælge den bedst egnede til dine behov."
+isLocalized: true
 ---
 
 At håndtere referencer til akademiske artikler, afhandlinger eller endda enkle rapporter kan være en udfordrende opgave. At have de rette værktøjer kan gøre denne proces problemfri og effektiv. I denne artikel vil vi udforske de top 10 bedste referencemanagere, så du kan vælge den bedst egnede til dine behov.

@@ -4,6 +4,7 @@ description: "Una guía exhaustiva que destaca los mejores paquetes de visualiza
 tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
+isLocalized: true
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)

@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Das Verwalten von Quellenangaben für wissenschaftliche Arbeiten, Dissertationen oder auch einfache Berichte kann eine herausfordernde Aufgabe sein. Die richtigen Werkzeuge können diesen Prozess reibungslos und effizient gestalten. In diesem Artikel werden wir die Top 10 der besten Literaturverwaltungsprogramme vorstellen, damit Sie das für Ihre Bedürfnisse am besten geeignete auswählen können."
+isLocalized: true
 ---
 
 Das Verwalten von Quellenangaben für wissenschaftliche Arbeiten, Dissertationen oder auch einfache Berichte kann eine herausfordernde Aufgabe sein. Die richtigen Werkzeuge können diesen Prozess reibungslos und effizient gestalten. In diesem Artikel werden wir die Top 10 der besten Literaturverwaltungsprogramme vorstellen, damit Sie das für Ihre Bedürfnisse am besten geeignete auswählen können.

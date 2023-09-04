@@ -4,6 +4,7 @@ description: "这是一个全面的指南，重点介绍了2023年可用的最�
 authors: ["CiteDrive"]
 tags: ["R", "RStudio", "dataviz"]
 date: "2023-08-15"
+isLocalized: true
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)

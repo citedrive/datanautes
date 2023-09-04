@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Å håndtere referanser for akademiske artikler, avhandlinger eller enkle rapporter kan være en utfordrende oppgave. Ved å bruke de riktige verktøyene kan denne prosessen gjøres smidig og effektiv. I denne artikkelen vil vi se på de ti beste referansehåndteringsverktøyene for å hjelpe deg med å gjøre det beste valget."
+isLocalized: true
 ---
 
 Å håndtere referanser for akademiske artikler, avhandlinger eller enkle rapporter kan være en utfordrende oppgave. Ved å bruke de riktige verktøyene kan denne prosessen gjøres smidig og effektiv. I denne artikkelen vil vi se på de ti beste referansehåndteringsverktøyene for å hjelpe deg med å gjøre det beste valget.

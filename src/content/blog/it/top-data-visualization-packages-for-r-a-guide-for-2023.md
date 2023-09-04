@@ -4,6 +4,7 @@ description: "Una guida completa che evidenzia i migliori pacchetti per la visua
 tags: ["R", "RStudio", "dataviz"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
+isLocalized: true
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)

@@ -4,6 +4,7 @@ description: "Den ultimate guiden som fremhever de beste pakkene for datavisuali
 tags: ["R", "RStudio", "datavis"]
 authors: ["CiteDrive"]
 date: "2023-08-15"
+isLocalized: true
 ---
 
 ## [ggplot2](https://ggplot2.tidyverse.org/)

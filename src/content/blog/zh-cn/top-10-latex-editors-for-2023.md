@@ -4,6 +4,7 @@ date: "2023-06-26"
 tags: ["LaTeX Editor", "CiteDrive", "Bibliography Management"]
 authors: ["Datanautes Team"]
 description: "发现2023年的顶级LaTeX编辑器，并了解像CiteDrive这样的引用管理工具的整合如何优化您的文档创建过程。"
+isLocalized: true
 ---
 
 LaTeX编辑器已成为许多专业人士、研究员和学生的首选，他们希望产生高质量的技术文档。如果你正在寻找2023年最好的LaTeX编辑器，那么你很幸运。下面，我们列出了前10名的LaTeX编辑器，以帮助你找到最适合你的编辑器。

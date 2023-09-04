@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Akademik makaleler, tezler veya basit raporlar için referansları yönetmek zorlu bir görev olabilir. Doğru araçlara sahip olmak, bu süreci sorunsuz ve verimli bir hale getirebilir. Bu makalede, ihtiyaçlarınıza en uygun olanı seçmenizi sağlamak için en iyi 10 referans yöneticisini inceleyeceğiz."
+isLocalized: true
 ---
 
 Akademik makaleler, tezler veya basit raporlar için referansları yönetmek zorlu bir görev olabilir. Doğru araçlara sahip olmak, bu süreci sorunsuz ve verimli bir hale getirebilir. Bu makalede, ihtiyaçlarınıza en uygun olanı seçmenizi sağlamak için en iyi 10 referans yöneticisini inceleyeceğiz.

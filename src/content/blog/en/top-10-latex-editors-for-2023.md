@@ -4,6 +4,7 @@ date: "2023-06-26"
 tags: ["LaTeX Editor", "CiteDrive", "Bibliography Management"]
 authors: ["Datanautes Team"]
 description: "Discover the top LaTeX editors in 2023 and learn how the integration of reference management tools like CiteDrive can enhance your document creation process."
+isLocalized: true
 ---
 
 LaTeX editors have become the go-to choice for many professionals, researchers, and students who want to produce high-quality technical documents. If you're searching for the best LaTeX editors available in 2023, you're in luck. Below, we've compiled a list of the top 10 LaTeX editors to help you find the right fit for your needs.

@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Explore o Markdown: a linguagem de marcação amigável usada por escritores e desenvolvedores. Melhore a legibilidade do conteúdo na web em plataformas como o GitHub. Mergulhe em nosso guia!"
+isLocalized: true
 ---
 
 O Markdown é uma linguagem simples projetada para simplificar a escrita de conteúdo. É usado em todos os lugares, desde o GitHub até aplicativos de anotações. Se você é um escritor, desenvolvedor ou apenas alguém que deseja simplificar sua escrita na web, este guia é para você!

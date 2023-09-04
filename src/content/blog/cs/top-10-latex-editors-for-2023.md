@@ -4,6 +4,7 @@ date: "2023-06-26"
 tags: ["LaTeX Editor", "CiteDrive", "Bibliography Management"]
 authors: ["Datanautes Team"]
 description: "Objevte nejlepší LaTeX editory v roce 2023 a dozvěděte se, jak integrace nástrojů pro správu odkazů, jako je CiteDrive, může vylepšit váš proces vytváření dokumentů."
+isLocalized: true
 ---
 
 LaTeX editory se staly první volbou mnoha odborníků, výzkumníků a studentů, kteří chtějí vytvářet technické dokumenty vysoké kvality. Pokud hledáte nejlepší LaTeX editory dostupné v roce 2023, máte štěstí. Níže jsme sestavili seznam 10 nejlepších LaTeX editorů, abyste si mohli vybrat ten pravý pro vaše potřeby.

@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Explore Markdown: the user-friendly markup language used by writers & developers. Boost web content readability on platforms like GitHub. Dive into our guide!"
+isLocalized: true
 ---
 
 Markdown is a simple language designed to streamline content writing. It's used everywhere, from GitHub to note-taking apps. Whether you're a writer, developer, or just someone who wants to simplify your web writing, this guide is for you!

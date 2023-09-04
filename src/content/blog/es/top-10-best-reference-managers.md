@@ -4,6 +4,7 @@ date: "2023-06-12"
 tags: ["Reference Manager"]
 authors: ["Datanautes Team"]
 description: "Gestionar las referencias para trabajos académicos, tesis o incluso informes simples puede ser una tarea desafiante. Tener las herramientas adecuadas puede hacer que este proceso sea fluido y eficiente. En este artículo, exploraremos los 10 mejores gestores de referencias, asegurándonos de que elijas el que mejor se adapte a tus necesidades."
+isLocalized: true
 ---
 
 Gestionar las referencias para trabajos académicos, tesis o incluso informes simples puede ser una tarea desafiante. Tener las herramientas adecuadas puede hacer que este proceso sea fluido y eficiente. En este artículo, exploraremos los 10 mejores gestores de referencias, asegurándonos de que elijas el que mejor se adapte a tus necesidades.

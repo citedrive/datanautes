@@ -4,6 +4,7 @@ date: "2023-08-27"
 tags: ["Markdown"]
 authors: ["Datanautes Team"]
 description: "Utforska Markdown: ett skrivvänligt markup-språk använt av skribenter och utvecklare. Förbättra läsbarheten av ditt online-innehåll på plattformar som GitHub. Dyk in i vår guide!"
+isLocalized: true
 ---
 
 Markdown är ett enkelt språk skapat för att förenkla skrivandet av innehåll. Det används överallt, från GitHub till anteckningsappar. Om du är en skribent, utvecklare, eller bara någon som vill förenkla sitt skrivande online, är den här guiden för dig!

@@ -4,6 +4,7 @@ date: "2023-06-26"
 tags: ["LaTeX Editor", "CiteDrive", "Bibliography Management"]
 authors: ["Datanautes Team"]
 description: "2023'teki en iyi LaTeX düzenleyicilerini keşfedin ve CiteDrive gibi referans yönetim araçlarının entegrasyonunun belge oluşturma sürecinizi nasıl geliştirebileceğini öğrenin."
+isLocalized: true
 ---
 
 LaTeX düzenleyiciler, kaliteli teknik belgeler üretmek isteyen birçok profesyonel, araştırmacı ve öğrenci için tercih edilen seçenek haline gelmiştir. 2023'te mevcut en iyi LaTeX düzenleyicilerini arıyorsanız, şanslısınız. İhtiyaçlarınıza en uygun olanı bulmanıza yardımcı olmak için en iyi 10 LaTeX düzenleyiciyi aşağıda sıraladık.

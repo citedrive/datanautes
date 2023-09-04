@@ -1,6 +1,9 @@
 ---
 import { getCollection } from 'astro:content'
 import Layout from "../../layouts/BlogLayout.astro"
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+const langTag = getLangFromUrl(Astro.url);
+const t = useTranslations(langTag);
 
 export async function getStaticPaths() {
   const pages = await getCollection('blog')
@@ -21,8 +24,15 @@ const formattedDate = thisDate.toLocaleString(lang);
 const { Content } = await page.render();
 ---
 <Layout title={page.data.title} description={page.data.description}>
-<h1>{page.data.title}</h1>{/* 
-<p>by {page.data.authors[0]} • {formattedDate}</p>
-*/}
+
+<h1>{page.data.title}</h1>
+  {!page.data.isLocalized && 
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+      <p class="text-yellow-700">
+       {t('blogPost.fallback')}
+      </p>
+    </div>
+  }
+  
 <Content/>
 </Layout>
