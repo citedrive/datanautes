@@ -4,7 +4,7 @@ description: "Discover the core principles of data science, a field that utilize
 tags: ["Data Science"]
 authors: ["Datanautes"]
 date: "2023-09-09"
-isLocalized: false
+isLocalized: true
 ---
 
 In this article, we explore a selection of proficient Python and R tools designed to seamlessly guide you through each phase of a typical data science project, condensed into an efficient 10-step process.
