@@ -88,9 +88,9 @@ const blogEntries = await getCollection("blog", ({ id, data }) => {
               
                 {
   blogPostEntry.data.tags && blogPostEntry.data.tags.length > 0
-    ? blogPostEntry.data.tags.map((tag, index) => (
+    ? blogPostEntry.data.tags.slice(0, 2).map((tag, index) => (
         <a
-        href={`/${lang}/tag/${slugify(tag)}/`}
+          href={`/${lang}/tag/${slugify(tag)}/`}
           class="cursor-pointer relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
         >
           {tag}
@@ -98,6 +98,7 @@ const blogEntries = await getCollection("blog", ({ id, data }) => {
       ))
     : "No tags"
 }
+
              
                 
               </div>
