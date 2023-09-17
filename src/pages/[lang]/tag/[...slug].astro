@@ -1,12 +1,11 @@
 ---
-import { languages } from "../../i18n/languages";
-import { getLangFromSlug, stripLangFromSlug } from "../../utils";
-import Layout from "../../layouts/Layout.astro";
+import { languages } from "../../../i18n/languages";
+import { stripLangFromSlug } from "../../../utils";
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+import Layout from "../../../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-const { lang } = Astro.params;
-const blogEntries = await getCollection("blog", ({ id, data }) => {
-  return id.startsWith(lang + "/") && data.isLocalized;
-});
+const langTag = getLangFromUrl(Astro.url);
+const t = useTranslations(langTag);
 
 function slugify(str: string): string {
     return str
@@ -18,24 +17,67 @@ function slugify(str: string): string {
         .replace(/-+$/, '');
 }
 
-export const getStaticPaths = () =>
-  Object.keys(languages).map((lang) => ({ params: { lang } }));
+
+const { lang } = Astro.params;
+
+export async function getStaticPaths() {
+
+
+  function slugify(str: string): string {
+    return str
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^\w\-]+/g, '')
+        .replace(/\-\-+/g, '-')
+        .replace(/^-+/, '')
+        .replace(/-+$/, '');
+}
+
+
+  const allTags = await getCollection('blog')
+
+  console.log(languages)
+  const uniqueTags = Array.from(
+    allTags.reduce((acc, curr) => {
+      Object.keys(languages).forEach(locale => {
+        curr.data.tags.forEach(tag => acc.add(`${locale}/${tag}/${slugify(tag)}`));
+      });
+      return acc;
+    }, new Set<string>())
+  );
+  console.log(uniqueTags)
+  const paths = uniqueTags.map(page => {
+    const [lang, ...tag] = page.split('/');
+    return { params: { lang, slug: tag[1] || undefined }, props: {lang, tag} };
+  });
+
+  return paths;
+}
+
+const page = Astro.props;
+
+const blogEntries = await getCollection("blog", ({ id, data }) => {
+  return id.startsWith(`${lang}/`) && data.isLocalized && data.tags?.includes(page.tag[0]);
+});
+
 ---
 
-<Layout title="Blog">
+<Layout title={page.tag[0]} >
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          datanautes Blog
-        </h2>
         <p class="mt-2 text-lg leading-8 text-gray-600">
-          ...
+          {t('tag.posts.tagged')}
         </p>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        {page.tag[0]}
+        </h2>
+ 
       </div>
       <div
         class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
       >
+      {blogEntries.length == 0 && <div>No blog posts found</div>}
       {
         blogEntries.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).map((blogPostEntry) => (
             <article class="flex max-w-xl flex-col items-start justify-between">
@@ -48,7 +90,7 @@ export const getStaticPaths = () =>
   blogPostEntry.data.tags && blogPostEntry.data.tags.length > 0
     ? blogPostEntry.data.tags.map((tag, index) => (
         <a
-          href={`/${lang}/tag/${slugify(tag)}/`}
+        href={`/${lang}/tag/${slugify(tag)}/`}
           class="cursor-pointer relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
         >
           {tag}
@@ -86,6 +128,7 @@ export const getStaticPaths = () =>
                 </div>
               </div>
             </article>
+          
           ))
         }
       </div>
