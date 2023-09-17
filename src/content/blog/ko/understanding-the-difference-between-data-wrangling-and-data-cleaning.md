@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Difference Between Data Wrangling and Data Cleaning"
 description: "Discover the key differences between data wrangling and data cleaning in our latest blog post. Learn about the techniques, scope, and goals of each process to enhance your data analysis and preparation strategies. Equip yourself with the knowledge to handle data more effectively and make informed decisions in your data projects."
-tags: ["DataWrangling", "DataCleaning"]
+tags: ["Data Wrangling", "Data Cleaning"]
 authors: ["CiteDrive"]
 date: "2023-09-05"
 isLocalized: false
