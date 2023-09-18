@@ -5,6 +5,16 @@ import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 const langTag = getLangFromUrl(Astro.url);
 const t = useTranslations(langTag);
 
+function slugify(str: string): string {
+    return str
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^\w\-]+/g, '')
+        .replace(/\-\-+/g, '-')
+        .replace(/^-+/, '')
+        .replace(/-+$/, '');
+}
+
 export async function getStaticPaths() {
   const pages = await getCollection('blog')
 
@@ -24,6 +34,19 @@ const formattedDate = thisDate.toLocaleString(lang);
 const { Content } = await page.render();
 ---
 <Layout title={page.data.title} description={page.data.description}>
+
+  {
+    page.data.tags && page.data.tags.length > 0
+      ? page.data.tags.slice(0, 4).map((tag, index) => (
+          <a
+            href={`/${lang}/tag/${slugify(tag)}/`}
+            class="cursor-pointer mr-2 relative z-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-500"
+          >
+            {tag}
+          </a>
+        ))
+      : "No tags"
+  }
 
 <h1>{page.data.title}</h1>
   {!page.data.isLocalized && 
