@@ -14,12 +14,14 @@ const { title, description } = Astro.props;
 ---
 
 <Layout title={title} description={description}>
+  <div class="bg-[#eaeaea] py-24 sm:py-32 border-t border-gray-300">
+    <div class="mx-auto bg-white rounded-xl p-8 max-w-7xl px-6 lg:px-8">
   <Container>
     <div class="mx-auto max-w-[735px] mt-14">
       <div></div>
     </div>
     
-    <div class="mx-auto prose prose-lg mt-6">
+    <div class="bg-white mx-auto prose prose-lg mt-6">
       <slot />
     </div>
     <div class="text-center mt-8">
@@ -31,3 +33,5 @@ const { title, description } = Astro.props;
     </div>
   </Container>
 </Layout>
+</div>
+</div>
