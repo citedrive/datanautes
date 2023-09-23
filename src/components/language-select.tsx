@@ -9,7 +9,7 @@ languages: {
 
 const LanguageSelector: React.FC<Props> = ({ lang, languages }) => {
 return (
-  <div>
+  <div className="bg-white text-gray-800 cursor-pointer focus:ring-opacity-50">
     <select
       aria-label="Language Selector"
       value={lang}
@@ -19,7 +19,7 @@ return (
         const slug = rest.join('/');
         window.location.pathname = `/${newLang}/${slug}`;
       }}
-      className="bg-white text-gray-800 rounded-full px-4 py-2 shadow-lg focus:ring focus:ring-opacity-50"
+      
     >
       {Object.entries(languages).map(([lang, label]) => (
         <option key={lang} value={lang}>
