@@ -9,8 +9,9 @@ languages: {
 
 const LanguageSelector: React.FC<Props> = ({ lang, languages }) => {
 return (
-  <div className="bg-white text-gray-800 cursor-pointer focus:ring-opacity-50">
+  <div className="bg-white text-gray-800 focus:ring-opacity-50">
     <select
+    className="cursor-pointer"
       aria-label="Language Selector"
       value={lang}
       onChange={(e: ChangeEvent<HTMLSelectElement>) => {
