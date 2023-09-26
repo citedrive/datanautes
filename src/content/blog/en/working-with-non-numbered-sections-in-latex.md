@@ -55,7 +55,7 @@ This is a non-numbered subsection.
 ```
 ### Result: 
 
-![](/images/working-with-non-numbered-sections-in-latex.png)
+![Result: Non-numbered Sections in LaTeX / Overleaf](@assets/images/working-with-non-numbered-sections-in-latex.png)
 
 ## Wrapping Up
 
