@@ -4,8 +4,8 @@ export const { getStaticPaths, GET } = OGImageRoute({
   param: 'route',
   pages: await import.meta.glob('/src/content/**/*.md', { eager: true }),
   getImageOptions: (_path, page) => ({
-    title: "DATANAUTES",
-    description: page.frontmatter.title,
+    title: page.frontmatter.title,
+    description: "datanautes.com",
     logo: { path: './src/assets/images/thumbnail_logo.png', size: [350] },
     bgGradient:[[9,16,23]],
     color: [0,0,0],
