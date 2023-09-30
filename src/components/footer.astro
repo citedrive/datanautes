@@ -19,9 +19,19 @@ const currentPath =  Astro.url.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?\//, '')
       </li>
     ))}
   </ul> */}
+
+
   <p class="text-center text-sm text-slate-500 text-white" >
+
     {t('footer.copyright')}
   </p>
+
+  <p class="text-center text-sm text-slate-500 text-white" >
+
+    <a href={`/${lang}/${"privacy-policy"}/`}>{"Privacy Policy"}</a> |  <a href={`/${lang}/${"terms-and-conditions"}/`}>{"Terms and Conditions"}</a>
+
+  </p>
+
 
   </p>
 </footer>

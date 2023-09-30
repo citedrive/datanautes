@@ -11,10 +11,21 @@ const blogCollection = defineCollection({
   })
 });
 
+const pageCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    isLocalized: z.boolean()
+  })
+});
+
+
+
 
 
 
 
 export const collections = {
-  'blog': blogCollection
+  'blog': blogCollection,
+  'page': pageCollection
 };
