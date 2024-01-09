@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Topp Overleaf-tillegg for Bedre LaTeX-redigering
-
 LaTeX, et kraftig typografisystem mye brukt for akademiske og tekniske dokumenter, får et løft i brukervennlighet gjennom Overleaf, en populær online LaTeX-redigerer. Hvis du ønsker å heve din Overleaf-opplevelse, sjekk ut disse fantastiske tilleggene.
 
 ## 1. CiteDrive: Din Litteraturhåndteringsmedhjelper

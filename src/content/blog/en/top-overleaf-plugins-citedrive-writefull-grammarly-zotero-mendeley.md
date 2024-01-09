@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Top Overleaf Plugins for Better LaTeX Editing
-
 LaTeX, a powerful typesetting system widely used for academic and technical documents, gets a boost in usability through Overleaf, a popular online LaTeX editor. If you're looking to level up your Overleaf experience, check out these fantastic plugins.
 
 ## 1. CiteDrive: Your Literature Management Sidekick

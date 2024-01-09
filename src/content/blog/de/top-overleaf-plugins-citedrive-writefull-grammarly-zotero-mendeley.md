@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Top Overleaf-Plugins für bessere LaTeX-Bearbeitung
-
 LaTeX, ein leistungsstarkes Textsatzsystem, das weit verbreitet für akademische und technische Dokumente verwendet wird, wird durch Overleaf, einen beliebten Online-LaTeX-Editor, in der Benutzerfreundlichkeit verbessert. Wenn Sie Ihr Overleaf-Erlebnis aufwerten möchten, sollten Sie sich diese fantastischen Plugins ansehen.
 
 ## 1. CiteDrive: Ihr Begleiter für Literaturverwaltung

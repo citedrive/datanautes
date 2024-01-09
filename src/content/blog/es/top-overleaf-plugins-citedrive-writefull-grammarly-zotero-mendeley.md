@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Principales complementos de Overleaf para una mejor edición de LaTeX
-
 LaTeX, un poderoso sistema de composición tipográfica ampliamente utilizado en documentos académicos y técnicos, obtiene un impulso en su usabilidad a través de Overleaf, un popular editor en línea de LaTeX. Si buscas llevar tu experiencia con Overleaf al siguiente nivel, echa un vistazo a estos fantásticos complementos.
 
 ## 1. CiteDrive: Tu compañero para la gestión de literatura

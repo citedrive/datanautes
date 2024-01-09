@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Topplista över Overleaf-plugins för Bättre LaTeX-redigering
-
 LaTeX, ett kraftfullt sättningssystem som används mycket för akademiska och tekniska dokument, blir ännu mer användarvänligt genom Overleaf, en populär online LaTeX-editor. Om du vill ta din Overleaf-upplevelse till nästa nivå, kolla in dessa fantastiska plugins.
 
 ## 1. CiteDrive: Din Litteraturhanteringsmedhjälpare

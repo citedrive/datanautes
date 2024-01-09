@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# I Migliori Plugin Overleaf per una Modifica LaTeX Migliore
-
 LaTeX, un potente sistema di composizione ampiamente utilizzato per documenti accademici e tecnici, riceve un miglioramento nella facilità d'uso attraverso Overleaf, un popolare editor LaTeX online. Se stai cercando di migliorare la tua esperienza con Overleaf, dai un'occhiata a questi fantastici plugin.
 
 ## 1. CiteDrive: Il Tuo Compagno di Gestione della Letteratura

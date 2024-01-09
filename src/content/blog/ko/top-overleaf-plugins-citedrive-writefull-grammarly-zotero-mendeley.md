@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# 더 나은 LaTeX 편집을 위한 최고의 Overleaf 플러그인
-
 LaTeX는 학술 및 기술 문서에 널리 사용되는 강력한 조판 시스템이며, Overleaf는 인기 있는 온라인 LaTeX 편집기를 통해 그 사용성을 높입니다. Overleaf 경험을 한 단계 업그레이드하려면 이 멋진 플러그인들을 확인해보세요.
 
 ## 1. CiteDrive: 문헌 관리의 동반자

@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# 提升LaTeX编辑体验的顶级Overleaf插件
-
 LaTeX是一种广泛用于学术和技术文档的强大排版系统，通过Overleaf（一个流行的在线LaTeX编辑器）可以提高其可用性。如果您想提升Overleaf体验，请查看以下这些出色的插件。
 
 ## 1. CiteDrive：您的文献管理得力助手

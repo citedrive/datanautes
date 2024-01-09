@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Daha İyi LaTeX Düzenleme için En İyi Overleaf Eklentileri
-
 Akademik ve teknik belgeler için yaygın olarak kullanılan güçlü bir düzenleme sistemi olan LaTeX, popüler çevrimiçi LaTeX düzenleyicisi Overleaf aracılığıyla kullanılabilirliğini artırıyor. Overleaf deneyiminizi bir üst seviyeye taşımak istiyorsanız, işte bu harika eklentilere göz atın.
 
 ## 1. CiteDrive: Literatür Yönetim Yardımcınız

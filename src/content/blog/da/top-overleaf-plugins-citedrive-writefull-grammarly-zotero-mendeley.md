@@ -7,8 +7,6 @@ date: "2024-01-08"
 isLocalized: true
 ---
 
-# Top Overleaf-tilføjelser for Bedre LaTeX-redigering
-
 LaTeX, et kraftfuldt satsningssystem, der bredt anvendes til akademiske og tekniske dokumenter, får en forbedring i brugervenlighed gennem Overleaf, en populær online LaTeX-redaktør. Hvis du ønsker at løfte din Overleaf-oplevelse, så tjek disse fantastiske tilføjelser.
 
 ## 1. CiteDrive: Din Litteraturhåndterings Sidekick
